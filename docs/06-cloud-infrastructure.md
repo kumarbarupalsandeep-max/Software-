@@ -27,3 +27,17 @@ Budgets, alerts, resource tags, rightsizing aur unused resource cleanup use karo
 1. IaaS, PaaS, SaaS ke examples do.
 2. CDN aur cache ka difference samjhao.
 3. Cloud bill achanak badhe to kya investigate karoge?
+
+## Visual example (diagram)
+
+**Cloud application layout** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart TD
+U[Users] --> CDN[CDN]
+CDN --> LB[Load balancer]
+LB --> A1[App instance A]
+LB --> A2[App instance B]
+A1 --> DB[(Managed database)]
+A2 --> DB
+```
