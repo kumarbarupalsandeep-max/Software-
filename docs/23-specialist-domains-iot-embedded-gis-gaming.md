@@ -38,3 +38,16 @@ A failure can cause harm, so hazard analysis, traceability, independent verifica
 4. Define measurable acceptance and safety criteria.
 5. Test edge cases and degraded modes.
 6. Review licensing, privacy, update and long-term maintenance.
+
+
+## Visual example (diagram)
+
+**IoT data path** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+D[Device or sensor] --> G[Gateway or network]
+G --> I[Ingestion service]
+I --> S[(Time-series storage)]
+S --> A[Alerts and dashboard]
+```
