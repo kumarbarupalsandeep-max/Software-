@@ -83,3 +83,16 @@ Score each domain 0–3: 0 = unfamiliar, 1 = can explain, 2 = can build/test, 3 
 
 ## 8. How to verify information
 Prefer current official standards, vendor documentation and reputable primary sources. Note publication/update date. Distinguish established standard from vendor-specific behavior and opinion. Recheck versions before production use.
+
+
+## Visual example (diagram)
+
+**Learning cycle** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+L[Learn concept] --> B[Build mini project]
+B --> T[Test and debug]
+T --> D[Document trade-offs]
+D --> L
+```
