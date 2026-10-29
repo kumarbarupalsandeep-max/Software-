@@ -51,3 +51,16 @@ For each topic, answer: (1) definition and purpose, (2) problem it solves, (3) h
 - Avoid copying long passages; explain concepts in original words and cite sources.
 - For laws, finance, health, security and regulated industries, verify current official requirements and get qualified professional review where appropriate.
 - Mark uncertain claims and test assumptions.
+
+
+## Visual example (diagram)
+
+**Research validation** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart TD
+Q[Question] --> P[Primary source]
+P --> V[Verify version and date]
+V --> X[Compare alternatives]
+X --> N[Write notes and citations]
+```
