@@ -30,3 +30,23 @@ Detect → assess → communicate → mitigate → restore → learn. Postmortem
 1. Metrics, logs aur traces compare karo.
 2. Backup hone par bhi restore test kyun zaroori hai?
 3. Production incident ke first steps likho.
+
+## Visual example (diagram)
+
+**CI/CD pipeline** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+C[Commit] --> T[Automated tests]
+T --> B[Build artifact]
+B --> S[Staging]
+S --> A[Approval or automated gate]
+A --> P[Production rollout]
+P --> M[Monitor and rollback if needed]
+```
+
+### Real-world reference image: Kubernetes cluster architecture
+
+![Official Kubernetes cluster architecture diagram](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg)
+
+Source: [Kubernetes official architecture documentation](https://kubernetes.io/docs/concepts/architecture/). Control plane, worker nodes aur workloads ke roles identify karein.
