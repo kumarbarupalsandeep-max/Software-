@@ -26,3 +26,15 @@ Options: existing system maintain karna, API ke through wrap karna, components r
 1. ERP, CRM aur HRMS compare karo.
 2. Reporting ke liye historical data kyun useful hai?
 3. Legacy system replace karne ke 5 risks likho.
+
+## Visual example (diagram)
+
+**Enterprise system integration** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+HR[HRMS] --> I[Integration layer]
+CRM[CRM] --> I
+ERP[ERP] --> I
+I --> D[(Shared data platform)]
+```
