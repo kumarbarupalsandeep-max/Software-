@@ -29,3 +29,23 @@ Cost vs latency, consistency vs availability aur simplicity vs flexibility trade
 1. Vertical aur horizontal scaling compare karo.
 2. Multi-tenant data isolation ke 3 controls batao.
 3. Startup ke liye monolith kab sensible ho sakta hai?
+
+## Visual example (diagram)
+
+**Scalable request path** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart TD
+U[Clients] --> CDN[CDN / edge]
+CDN --> LB[Load balancer]
+LB --> API[Stateless API instances]
+API --> C[(Cache)]
+API --> DB[(Database)]
+API --> Q[Queue for background work]
+```
+
+### Real-world reference image: Kubernetes cluster architecture
+
+![Official Kubernetes cluster architecture diagram](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg)
+
+Source: [Kubernetes official architecture documentation](https://kubernetes.io/docs/concepts/architecture/). Control plane, worker nodes aur workloads ke roles identify karein.
