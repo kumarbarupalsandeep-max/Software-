@@ -6,7 +6,7 @@
 1. **[Master Topic Coverage Map](docs/00-master-topic-coverage-map.md)** — broad syllabus audit, major domains aur specialist branches.
 2. **[Software & IT Fundamentals](docs/01-software-it-fundamentals.md)** — industry ki foundation.
 3. Chapters 02–13 main learning path hain.
-4. Chapters 14–22 additional depth, practical learning aur research references dete hain.
+4. Chapters 14–25 additional depth, practical learning, specialist domains aur research references dete hain.
 
 ## Complete table of contents
 
@@ -35,6 +35,9 @@
 20. [Quality Attributes, Architecture Decisions & Engineering Trade-offs](docs/20-quality-attributes-accessibility-architecture-decisions.md)
 21. [Career Roadmap, Hands-on Labs, Glossary & Self-Assessment](docs/21-career-learning-labs-glossary.md)
 22. [Research Methodology & Primary Source Index](docs/22-research-methodology-primary-sources.md)
+23. [Specialist Software Domains: Embedded, IoT, GIS, Gaming & Real-Time Systems](docs/23-specialist-domains-iot-embedded-gis-gaming.md)
+24. [Specialist Business Domains: FinTech, Health IT, E-commerce & Blockchain](docs/24-fintech-health-ecommerce-blockchain.md)
+25. [Standards, Compliance, Open Source & Software Supply-Chain Security](docs/25-open-source-standards-compliance-supply-chain.md)
 
 ## How to study each topic deeply
 For every topic, try to answer:
