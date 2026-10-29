@@ -63,3 +63,17 @@ Least exposure, private subnets, security groups, network segmentation, VPN/zero
 3. HTTPS hone ke baad bhi app insecure kaise ho sakti hai?
 4. CDN aur load balancer ka difference?
 5. 404 aur 500 ka practical meaning?
+
+
+## Visual example (diagram)
+
+**Browser-to-server path** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart TD
+B[Browser] --> DNS[DNS lookup]
+DNS --> TLS[TCP or QUIC + TLS]
+TLS --> CDN[CDN or edge]
+CDN --> LB[Load balancer]
+LB --> APP[Application]
+```
