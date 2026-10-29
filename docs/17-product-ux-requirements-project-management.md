@@ -47,3 +47,17 @@ Employee leave portal ke liye problem statement, 3 user stories, acceptance crit
 2. Acceptance criteria testable kyun hone chahiye?
 3. RICE ke limitations?
 4. Agile ka matlab no planning hai?
+
+
+## Visual example (diagram)
+
+**Product feedback loop** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+R[Research] --> H[Hypothesis and requirements]
+H --> P[Prototype/build]
+P --> T[User testing]
+T --> M[Measure outcome]
+M --> R
+```
