@@ -39,3 +39,22 @@ Ek PWA task tracker banayein: manifest, service worker, offline static shell, ne
 2. Service worker aur manifest ka role?
 3. Offline edits mein conflicts kaise resolve karenge?
 4. Client-side validation security ke liye enough kyun nahi?
+
+
+## Visual example (diagram)
+
+**PWA request and cache flow** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart TD
+U[User opens app] --> SW[Service worker]
+SW -->|cached asset available| C[Cache response]
+SW -->|needs fresh data| N[Network request]
+N --> S[Server]
+```
+
+### Real-world reference image: Service worker lifecycle
+
+![MDN service worker lifecycle diagram](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers/sw-lifecycle.svg)
+
+Source: [MDN — Using Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers). Image registration, installation, activation aur page control ke phases samajhne mein help karti hai.
