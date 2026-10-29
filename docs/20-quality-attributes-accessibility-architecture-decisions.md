@@ -41,3 +41,16 @@ Write 5 measurable quality scenarios for an exchange-like application: market-da
 2. Why p95 can be more useful than average?
 3. How can retries worsen an outage?
 4. What belongs in an ADR?
+
+
+## Visual example (diagram)
+
+**Reliability feedback loop** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+S[Service] --> M[SLIs and monitoring]
+M --> B[Compare with SLO]
+B -->|budget healthy| D[Continue delivery]
+B -->|budget exhausted| R[Reduce risk and improve reliability]
+```
