@@ -52,3 +52,17 @@ CSV sales data clean karein, schema/quality checks likhein, SQL aggregation se d
 3. RAG hallucination ko completely eliminate karta hai?
 4. Data leakage kya hota hai?
 5. Model accuracy ke alawa kya monitor karna chahiye?
+
+
+## Visual example (diagram)
+
+**Data pipeline** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+S[Source systems] --> I[Ingest]
+I --> Q[Quality checks]
+Q --> T[Transform]
+T --> W[(Warehouse or lakehouse)]
+W --> A[Analytics or model]
+```
