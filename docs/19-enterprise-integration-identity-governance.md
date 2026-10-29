@@ -42,3 +42,17 @@ Draw integration map for HRMS, payroll, identity provider, leave portal and anal
 2. OAuth 2.0 vs OpenID Connect?
 3. Why should event consumers be idempotent?
 4. What does tenant isolation mean beyond UI filtering?
+
+
+## Visual example (diagram)
+
+**SSO authentication path** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+U[User] --> APP[Business application]
+APP --> IDP[Identity provider]
+IDP -->|signed identity result| APP
+APP --> AUTH[Authorization checks]
+AUTH --> DATA[Permitted data]
+```
