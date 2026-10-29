@@ -32,3 +32,15 @@ Browser network requests, rendering, input aur JavaScript tasks coordinate karta
 1. Signup form ke frontend, backend aur database parts identify karo.
 2. HTML, CSS aur JavaScript ki responsibilities likho.
 3. Mobile UI accessible banane ke 4 steps likho.
+
+## Visual example (diagram)
+
+**Web request flow** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart TD
+B[Browser UI] -->|HTTPS request| A[Application API]
+A --> D[(Database)]
+D --> A
+A -->|response| B
+```
