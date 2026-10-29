@@ -42,3 +42,17 @@ System software hardware/resources manage karta hai, jaise operating system. App
 1. Apne phone ke 3 hardware aur 3 software examples likho.
 2. Ek product aur ek IT service ka example do.
 3. Kisi local business ki technology problem identify karo.
+
+## Visual example (diagram)
+
+**Software lifecycle** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart TD
+A[Problem] --> B[Requirements]
+B --> C[Design]
+C --> D[Build]
+D --> E[Test]
+E --> F[Release]
+F --> G[Operate and improve]
+```
