@@ -38,3 +38,17 @@ For a small web app:
 2. A clean scan prove karta hai ki app secure hai?
 3. Why pin dependencies and protect CI credentials?
 4. Standard, framework and law ka difference?
+
+
+## Visual example (diagram)
+
+**Software supply chain** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+C[Source code] --> B[Controlled build]
+B --> T[Tests and scans]
+T --> A[Signed artifact and provenance]
+A --> D[Deployment]
+D --> M[Monitor vulnerabilities and updates]
+```
