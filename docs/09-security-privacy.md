@@ -32,3 +32,15 @@ Sirf necessary personal data collect karo; purpose, access, retention aur deleti
 1. CIA triad ke office examples do.
 2. API key repository mein rakhna unsafe kyun hai?
 3. Least privilege ka example likho.
+
+## Visual example (diagram)
+
+**Defense in depth** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart TD
+I[Identity and MFA] --> A[Authorization]
+A --> APP[Application controls]
+APP --> D[Data encryption and access controls]
+D --> L[Audit and monitoring]
+```
