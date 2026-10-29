@@ -28,3 +28,14 @@ Clear labels, helpful errors, keyboard support, responsive layout aur adequate c
 1. Signup feature ke unit, integration aur E2E test examples do.
 2. Automation manual testing ko fully replace kyun nahi karti?
 3. Slow page diagnose karne ke steps likho.
+
+## Visual example (diagram)
+
+**Testing pyramid** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart TD
+U[Many unit tests] --> I[Fewer integration tests]
+I --> E[Focused end-to-end tests]
+E --> R[Release confidence]
+```
