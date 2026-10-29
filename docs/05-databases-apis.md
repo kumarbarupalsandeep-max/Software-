@@ -28,3 +28,15 @@ Integration systems ko data/workflow share karne deti hai. Webhook event hone pa
 1. API ko real-world example se samjhao.
 2. 401 aur 403 mein difference batao.
 3. Salary data ke liye authorization kyun critical hai?
+
+## Visual example (diagram)
+
+**API and database flow** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+C[Client] --> G[API gateway or server]
+G --> V[Validation and authorization]
+V --> D[(Database)]
+D --> G --> C
+```
