@@ -50,3 +50,17 @@ Compare two SaaS vendors for an office task tool using a scorecard: capability, 
 2. Fixed-price vs time-and-materials?
 3. Why is vendor exit planning important?
 4. Does open-source mean no license obligations?
+
+
+## Visual example (diagram)
+
+**Customer lifecycle** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+L[Lead] --> D[Discovery]
+D --> P[Proposal and contract]
+P --> I[Implementation]
+I --> A[Adoption and support]
+A --> R[Renewal or expansion]
+```
