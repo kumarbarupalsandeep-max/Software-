@@ -1,0 +1,44 @@
+# 19. Enterprise Integration, Identity, Governance & Compliance
+
+## 1. Enterprise reality
+Large organizations have many apps, teams, data owners, legacy systems and regulatory obligations. The hard problem is often process, ownership and integration—not merely coding. Map systems, data flows, trust boundaries and business owners before selecting architecture.
+
+## 2. Identity and access
+Authentication verifies who/what is requesting access; authorization determines permitted actions. Identity provider (IdP), service provider (SP), directory, MFA, SSO, RBAC, ABAC, SCIM provisioning and privileged access management are common concepts. Disable leavers promptly, review permissions periodically and use least privilege.
+
+## 3. SAML, OAuth 2.0 and OpenID Connect
+SAML is commonly used for enterprise browser SSO assertions. OAuth 2.0 is an authorization framework for delegated access. OpenID Connect adds an identity layer on OAuth 2.0. They are not interchangeable. Validate issuer, audience, signature, expiry, redirect URI and state/nonce as applicable; follow current security best practices.
+
+## 4. Integration patterns
+- Synchronous API call: immediate response, runtime coupling.
+- Asynchronous messaging: producers and consumers decoupled, but eventual consistency/retries required.
+- Batch file exchange: simple but latency and reconciliation matter.
+- Webhooks: event notifications to a receiver; signatures, retries and idempotency are important.
+- iPaaS/ESB: integration tooling/platform; governance and complexity still remain.
+
+## 5. Event-driven systems
+Events represent facts that happened. Consumers may process at least once, so idempotency and deduplication matter. Use schema evolution/versioning, dead-letter handling, replay controls, ordering strategy and observability. Avoid treating a command (“please charge”) and event (“charge completed”) as the same thing.
+
+## 6. Master data and governance
+Master data includes shared entities such as customer, product, employee and supplier. Data governance defines owners, stewards, quality rules, classification, lineage, retention and access. Golden record decisions need matching rules and human correction processes.
+
+## 7. Multi-tenant and enterprise controls
+Tenant isolation must apply to queries, caches, files, background jobs, logs and analytics—not only the UI. Consider tenant ID propagation, row-level security, encryption key strategy, per-tenant quotas, audit logs and backup/restore scope. Test cross-tenant access explicitly.
+
+## 8. Auditability and compliance
+Audit records should capture actor, action, target, timestamp, outcome and relevant context while avoiding secrets and unnecessary personal data. Protect logs from tampering and restrict access. Control frameworks can help organize evidence, but compliance certification does not guarantee every system is secure.
+
+## 9. Legacy modernization
+Options include rehost, replatform, refactor, replace, retire and retain. Assess business criticality, undocumented dependencies, data quality, migration window, rollback and coexistence. Strangler pattern gradually routes capabilities to a replacement; dual-write needs careful consistency design.
+
+## 10. Governance without bottlenecks
+Define architecture principles, security review triggers, data ownership, exception process, decision records and service ownership. Lightweight standards and reusable paved roads are often more effective than a slow approval board for every change.
+
+## Practical project
+Draw integration map for HRMS, payroll, identity provider, leave portal and analytics warehouse. Mark systems of record, PII flows, API/event/batch links, owner, failure handling and retention.
+
+## Questions
+1. Authentication vs authorization?
+2. OAuth 2.0 vs OpenID Connect?
+3. Why should event consumers be idempotent?
+4. What does tenant isolation mean beyond UI filtering?
