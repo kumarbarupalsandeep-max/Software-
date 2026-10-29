@@ -36,3 +36,16 @@ Version control, code review, tests, secret safety, rollback planning aur comple
 1. Portfolio project choose karke features aur acceptance criteria likho.
 2. AI-generated code merge karne se pehle checks list karo.
 3. Weekly learning plan banao: concept, hands-on task, revision.
+
+## Visual example (diagram)
+
+**Product delivery team** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+P[Product and users] --> D[Design and requirements]
+D --> E[Engineering]
+E --> Q[QA and security]
+Q --> O[Operations and feedback]
+O --> P
+```
