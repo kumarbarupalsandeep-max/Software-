@@ -30,3 +30,17 @@ Understand consensus, validators/miners, finality, forks, fees, smart-contract a
 - Define degraded mode, manual fallback and recovery.
 - Review jurisdiction-specific rules with qualified experts.
 - Test accessibility, privacy, security and operational readiness.
+
+
+## Visual example (diagram)
+
+**Payment state flow** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+C[Checkout] --> A[Authorize]
+A --> K[Capture]
+K --> S[Settlement]
+S --> R[Reconciliation]
+A -->|declined| F[Failure handling]
+```
