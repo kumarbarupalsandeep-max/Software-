@@ -34,3 +34,15 @@ Automated build, tests aur deployment errors jaldi pakadte hain. Safe release pr
 1. SDLC ke stages apne words mein explain karo.
 2. Scrum aur Kanban ka key difference likho.
 3. Production release se pehle 5 safety checks likho.
+
+## Visual example (diagram)
+
+**Agile delivery loop** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+P[Prioritized backlog] --> S[Sprint planning]
+S --> B[Build and test]
+B --> R[Review and feedback]
+R --> P
+```
