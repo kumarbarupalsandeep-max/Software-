@@ -34,3 +34,14 @@ Total cost mein license, implementation, training, migration, support, cloud usa
 1. Ek B2B aur ek B2C example do.
 2. Subscription aur usage-based billing ka difference batao.
 3. Software choose karte waqt data export aur vendor lock-in kyun check karna chahiye?
+
+## Visual example (diagram)
+
+**SaaS example** — is simplified flow ko real system ke example ki tarah dekhein.
+
+```mermaid
+flowchart LR
+U[Customer] -->|subscription| S[Software provider]
+S -->|hosted app| U
+S --> I[Infrastructure and support]
+```
