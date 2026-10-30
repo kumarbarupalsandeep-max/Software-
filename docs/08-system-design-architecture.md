@@ -109,3 +109,19 @@ Ek ticket-booking system ka high-level diagram banao. Double booking, traffic sp
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a fully worked capacity estimate and diagram for a named sample system.
+
+
+## Worked estimation example: appointment app
+
+Assumptions for an initial estimate:
+- 1,000,000 API requests/day.
+- Traffic is not uniform; use a provisional peak factor of 8.
+- Average stored event size is approximately 2 KB.
+- 100,000 events are stored each day and retained for 365 days.
+
+Calculations:
+1. Average request rate ≈ 1,000,000 ÷ 86,400 ≈ **11.6 requests/second**.
+2. Estimated peak rate under the assumed factor ≈ 11.6 × 8 ≈ **93 requests/second**.
+3. Raw event storage ≈ 100,000 × 2 KB × 365 ≈ **73 GB** in decimal units, before indexes, replicas, backups, compression and metadata.
+
+These are deliberately rough assumptions, not production sizing. Validate peak factor, payload size, request mix, database query cost, retention and actual measurements before choosing infrastructure. A small number of expensive requests can dominate resource use even when average RPS looks modest.
