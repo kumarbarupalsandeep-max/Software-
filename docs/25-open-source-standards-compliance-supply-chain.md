@@ -52,3 +52,34 @@ T --> A[Signed artifact and provenance]
 A --> D[Deployment]
 D --> M[Monitor vulnerabilities and updates]
 ```
+
+
+## Practical deep dive: open source aur software supply chain
+
+### Dependency ka matlab
+Aapka project external libraries, packages, build tools, container images aur actions par depend kar sakta hai. Har dependency functionality ke saath maintenance, vulnerability aur licensing risk bhi la sakti hai.
+
+### Review checklist
+1. Project active/maintained hai? Releases aur issue response check karo.
+2. License kya allow/require karti hai? Obligations exact license text aur usage se depend karte hain.
+3. Known vulnerabilities hain? Advisories aur compatible fixed versions check karo.
+4. Dependency kahan se aayi aur exact version/pin kya hai?
+5. Transitive dependencies aur build scripts kya karte hain?
+6. Update, rollback aur incident response plan kya hai?
+7. Required notices/attribution package ke saath preserve kiye gaye hain?
+
+### SBOM aur provenance
+- **SBOM:** software mein included components ki inventory.
+- **Provenance:** artifact ka source/build process evidence.
+Ye supply-chain visibility improve karte hain, lekin khud se vulnerability-free ya trustworthy build guarantee nahi karte.
+
+### Secure dependency workflow
+Use trusted registries, lockfiles/version pinning where appropriate, automated alerts, review updates, test changes, protect CI credentials aur release artifacts ko traceable rakho. Unknown install scripts ko blindly execute mat karo.
+
+### Practice lab
+Ek small project ke dependencies list karo. Har dependency ke liye purpose, version, license, maintenance signal aur vulnerability-check result record karo. High-risk dependency ke replacement/upgrade plan ka draft banao.
+
+### Further learning
+- [Open Source Initiative licenses](https://opensource.org/licenses)
+- [GitHub Dependabot documentation](https://docs.github.com/en/code-security/dependabot)
+- [NIST Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf)
