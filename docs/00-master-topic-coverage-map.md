@@ -151,7 +151,7 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 
 - [x] Repository listing checked: numbered chapters 01–31 are present.
 - [x] README internal Markdown links checked against repository files: no broken README links found in this check.
-- [x] Internal links checked in the master map, learning-standard chapter and Chapters 28–30: no broken links found in this check.
+- [x] Internal Markdown file links checked in README and Chapters 01–31: no broken file targets found in this check.
 - [x] Markdown code-fence counts checked across Chapters 01–31: no unbalanced code fences found.
 - [x] Selected official references spot-checked (MDN PWA/Web Workers/HTTP caching, NIST SSDF, OWASP Top 10, W3C WCAG, OpenID Foundation, cloud load-balancing/safe-deployment docs).
 - [ ] Full external-link validation for every URL.
