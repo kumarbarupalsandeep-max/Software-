@@ -124,3 +124,6 @@ A spot-check of selected official references confirmed these pages are useful st
 - OpenID Foundation's specification index lists official OpenID specifications: https://openid.net/developers/specs/
 
 This was a spot-check, not a full automated validation of every external link in the repository. Re-check URLs, versions and relevance before using them in production or compliance work.
+
+
+- NIST OT security publication check: SP 800-82 Rev. 3 is the final guide listed, while Rev. 4 appeared as an initial public draft on September 21, 2026. A draft should not be presented as a final standard. See [NIST Rev. 3](https://csrc.nist.gov/pubs/sp/800/82/r3/final) and [NIST Rev. 4 draft](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).
