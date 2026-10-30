@@ -120,3 +120,7 @@ Ek employee portal ke liye asset list, 5 threats, risk level, preventive control
 | Recovery | Ransomware or accidental deletion | Service/data loss | Protected backups and restore drills | Record a successful restore test |
 
 A threat model lists plausible risks; it does not prove a system secure. Prioritize by likelihood, impact and context, then test the controls. Do not use real employee data in a demo lab.
+
+
+### Version note for OWASP references
+The official OWASP Top 10 project page lists **OWASP Top 10:2025** as the current released version at the time this chapter was checked (2026-10-30). Use the project's versioned documentation when studying a specific release. The Top 10 is an awareness document, not a complete security test plan or proof of compliance.
