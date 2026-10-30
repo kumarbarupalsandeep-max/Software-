@@ -52,3 +52,35 @@ Har chapter padhte waqt:
 - Security/privacy boundary mark karo.
 - Ek real product example identify karo.
 - Official docs mein implementation detail verify karo.
+
+
+## Visual study method: image dekhkar architecture samjho
+
+Official diagrams helpful hain, lekin diagram ko copy karne se pehle uska context samjho. Har visual ke liye ye sawal poochho:
+1. Diagram kis system/version ke liye hai?
+2. Boxes components hain ya boundaries? Arrows data, control ya network flow dikhate hain?
+3. Kaun se components trusted/untrusted boundaries par hain?
+4. Failure hone par traffic/data kahan jata hai?
+5. Kaun sa information diagram mein intentionally omitted hai?
+6. Source, license/terms aur last-checked date kya hai?
+
+### Case-study template
+- **Problem:** system kya solve karta hai?
+- **Actors:** kaun use karta hai?
+- **Components:** key building blocks kya hain?
+- **Data flow:** request/data ka path?
+- **Risks:** security, privacy, availability aur cost concerns?
+- **Trade-offs:** simpler alternative kya ho sakta hai?
+- **Evidence:** official source, diagram title, version/date.
+- **Practice:** learner kaunsa small diagram ya experiment bana sakta hai?
+
+### Practice lab
+Chapter ke kisi official architecture diagram ko choose karo. Usko apni language mein redraw karo, 5 components explain karo, 3 failure cases mark karo aur source/usage terms verify karo. Diagram se unsupported assumptions mat nikalo.
+
+### Image usage reminder
+External image ko educational use mein embed karne se pehle source, license/terms, attribution requirements, hotlinking stability aur accessibility alt text check karo. Official site par visible image hona automatic permission to redistribute ka proof nahi hai.
+
+### Further learning
+- [Kubernetes Architecture documentation](https://kubernetes.io/docs/concepts/architecture/)
+- [MDN Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+- [W3C Web Accessibility Initiative](https://www.w3.org/WAI/)
