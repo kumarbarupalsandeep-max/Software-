@@ -103,3 +103,16 @@ Ek dashboard ke liye 4 measurable quality requirements likho. Do architecture op
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a sample ADR and measurable non-functional requirement set, then verify WCAG references.
+
+
+## Worked measurable quality requirements
+
+Weak statement: “The app must be reliable and fast.”
+
+More testable examples:
+- Under a defined load profile of 200 requests/second in the agreed test environment, 95% of catalogue requests complete within 500 ms, excluding explicitly documented external dependencies.
+- For the defined 30-day measurement window, the service meets its agreed availability SLO using a documented request-based or time-based formula.
+- Keyboard users can reach and operate every core form control, and focus remains visibly identifiable.
+- Backup restoration is demonstrated in a test environment within the agreed recovery-time objective, with restored data meeting the recovery-point objective.
+
+These are sample targets, not universal recommendations. Teams must validate targets against user needs, cost, risk and architecture.
