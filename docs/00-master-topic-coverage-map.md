@@ -97,31 +97,31 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 
 | Chapter | Current milestone | Remaining quality work |
 |---|---|---|
-| 01 — Fundamentals | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 02 — Business models | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 03 — SDLC | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 04 — Programming/web | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 05 — Databases/APIs | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 06 — Cloud/infrastructure | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 07 — DevOps/reliability | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 08 — System design | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 09 — Security/privacy | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 10 — Testing/quality | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 11 — IT operations | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 12 — Enterprise applications | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 13 — Teams/careers | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 14 — Networking | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 15 — Mobile/PWA | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 16 — Data/AI/ML | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 17 — Product/UX/project management | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 18 — Business/finance/legal | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 19 — Integration/identity/governance | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 20 — Quality attributes/accessibility | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 21 — Career/labs/glossary | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 22 — Research methodology | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 23 — Specialist domains | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 24 — Industry-specific systems | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 25 — Open source/supply chain | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 01 — Fundamentals | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 02 — Business models | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 03 — SDLC | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 04 — Programming/web | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 05 — Databases/APIs | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 06 — Cloud/infrastructure | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 07 — DevOps/reliability | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 08 — System design | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 09 — Security/privacy | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 10 — Testing/quality | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 11 — IT operations | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 12 — Enterprise applications | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 13 — Teams/careers | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 14 — Networking | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 15 — Mobile/PWA | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 16 — Data/AI/ML | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 17 — Product/UX/project management | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 18 — Business/finance/legal | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 19 — Integration/identity/governance | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 20 — Quality attributes/accessibility | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 21 — Career/labs/glossary | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 22 — Research methodology | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 23 — Specialist domains | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 24 — Industry-specific systems | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
+| 25 — Open source/supply chain | Beginner + practical expansion + answer guide + lab review checklist | Deep review and source recheck |
 | 26 — Visual case studies | Beginner + practical expansion | Deep review, image terms and alt text review |
 | 27 — Learning standard/coverage roadmap | Standard and audit roadmap | Use it to review chapters and record evidence |
 | 28 — End-to-end case studies | Case studies and 100-point assessment rubric | Validate scenarios, then add runnable labs and evidence |
@@ -153,6 +153,7 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 - [x] README internal Markdown links checked against repository files: no broken README links found in this check.
 - [x] Internal Markdown file links checked in README and Chapters 01–31: no broken file targets found in this check.
 - [x] Markdown code-fence counts checked across Chapters 01–31: no unbalanced code fences found.
+- [x] Lab review checklists added to Chapters 01–26 to make expected evidence and quality criteria clearer.
 - [x] Selected official references spot-checked (MDN PWA/Web Workers/HTTP caching, NIST SSDF, OWASP Top 10, W3C WCAG, OpenID Foundation, cloud load-balancing/safe-deployment docs).
 - [ ] Full external-link validation for every URL.
 - [ ] Full claim-by-claim technical accuracy review for Chapters 01–31.
