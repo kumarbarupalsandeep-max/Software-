@@ -107,3 +107,7 @@ Apne target role ke liye:
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add role-specific learning roadmaps with measurable projects and verify current official learning resources.
+
+
+## Lab review checklist
+A strong learning plan has a target role, measurable weekly outputs, practical evidence and a feedback/review loop. A portfolio project should be reproducible, documented, tested and honest about limitations. Keep secrets and personal data out of public repositories and screenshots.
