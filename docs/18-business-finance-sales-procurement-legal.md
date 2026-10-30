@@ -127,3 +127,7 @@ Create a 3-year comparison with:
 - Renewal assumptions and exit/data-export cost
 
 Use low/base/high scenarios and state assumptions. Do not invent a precise cost when vendor pricing or usage data is unavailable. Verify current quotes, terms and applicable legal obligations before a real purchase.
+
+
+## Lab review checklist
+A strong TCO comparison includes initial and recurring fees, internal effort, usage growth, migration, training, support and exit costs. Contract/SOW drafts make scope, deliverables, acceptance, assumptions, responsibilities and change control explicit. Legal claims should be jurisdiction-specific and professionally reviewed where necessary.
