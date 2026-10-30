@@ -144,3 +144,20 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 3. Pick specialist branches based on a real project or career target.
 4. For each topic, aim to explain it, compare alternatives, build a small example, test failure cases and document trade-offs.
 5. Treat all versions, regulations, vendor prices and platform capabilities as time-sensitive; verify from current primary sources before implementation.
+
+
+### Audit checkpoint — 2026-10-30
+
+- [x] Repository listing checked: numbered chapters 01–30 are present.
+- [x] README internal Markdown links checked against repository files: no broken README links found in this check.
+- [x] Internal links checked in the master map, learning-standard chapter and Chapters 28–30: no broken links found in this check.
+- [x] Markdown code-fence counts checked across Chapters 01–30: no unbalanced code fences found.
+- [x] Selected official references spot-checked (MDN PWA/Web Workers/HTTP caching, NIST SSDF, OWASP Top 10, W3C WCAG, OpenID Foundation, cloud load-balancing/safe-deployment docs).
+- [ ] Full external-link validation for every URL.
+- [ ] Full claim-by-claim technical accuracy review for Chapters 01–30.
+- [ ] Mermaid rendering/diagram meaning verified in a renderer.
+- [ ] All labs independently executed and expected outputs verified.
+- [ ] All external image URLs, usage terms and alt text audited.
+- [ ] Final gap review against every line in the coverage map.
+
+**Important:** These checks validate repository structure and selected quality signals only. They do not establish that every topic is deeply complete or production-ready.
