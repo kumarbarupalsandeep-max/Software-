@@ -109,3 +109,16 @@ Ek demo app ke liye architecture diagram banao. Har component ke liye purpose, d
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a worked cloud deployment diagram and verify provider-specific examples.
+
+
+## Mini architecture decision record: host a small business site
+
+**Context:** A mostly static public website with a small contact form and occasional content updates.
+
+**Option A — one virtual machine:** flexible runtime control, but the team manages OS patching, web server, backups and availability design.
+
+**Option B — managed static hosting/CDN plus a small server-side form handler:** often reduces operations for static content, but introduces provider constraints and the form endpoint still needs validation, spam controls and monitoring.
+
+**Option C — full container platform:** can fit a more complex application, but may add unnecessary operational overhead for a simple site.
+
+**Decision method:** compare expected traffic, team skills, data sensitivity, support needs, availability target, cost, migration/exit path and required backend behaviour. Do not select a platform only because it is popular.
