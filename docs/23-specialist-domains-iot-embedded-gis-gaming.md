@@ -51,3 +51,29 @@ G --> I[Ingestion service]
 I --> S[(Time-series storage)]
 S --> A[Alerts and dashboard]
 ```
+
+
+## Practical deep dive: specialist domains ke shared lessons
+
+### Embedded systems aur IoT
+Devices sensors se input le sakte hain, firmware mein decisions kar sakte hain aur network ke through telemetry bhej sakte hain. Power, memory, connectivity, physical access aur safe update mechanisms important constraints hain. Default passwords aur unsupported firmware major risks ho sakte hain.
+
+### GIS/geospatial
+Location data maps aur spatial analysis enable karta hai. Coordinate reference systems, accuracy, timestamp, data licensing aur location privacy samajhna zaroori hai. Location data ko unnecessary detail ke saath retain/share na karo.
+
+### Game development
+Real-time rendering mein frame budget, input latency, assets, physics aur platform constraints matter karte hain. Profiling aur target hardware par testing important hai; average performance alone spikes ko hide kar sakti hai.
+
+### Robotics aur real-time systems
+Sensor uncertainty, timing constraints, fail-safe behaviour, physical safety aur controlled testing important hote hain. Real-world deployment se pehle simulated/contained test environment aur hazard review use karo.
+
+### Domain selection checklist
+Problem fit, safety impact, data sensitivity, hardware/software constraints, standards, certification needs, maintenance lifecycle aur team expertise evaluate karo. Safety-critical systems ko generic hobby-project assumptions se design nahi karna chahiye.
+
+### Practice lab
+IoT temperature-monitoring device ka high-level design banao: sensor, firmware, network, backend, dashboard, update mechanism, access controls, data retention aur network-loss behaviour. Threats aur safe failure states list karo.
+
+### Further learning
+- [NIST IoT Cybersecurity](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program)
+- [OGC Standards](https://www.ogc.org/standards/)
+- [Godot Documentation](https://docs.godotengine.org/)
