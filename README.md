@@ -1,5 +1,8 @@
 # Software & IT Services — Deep Research & Study Notes
 
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, subject to the third-party material notice in [COPYRIGHT.md](COPYRIGHT.md).
+
 **Purpose:** Ye repository website nahi hai. Ye topic-wise Markdown learning library hai jo GitHub par directly read ki ja sakti hai. Language beginner-friendly Hinglish hai, lekin topics mein practical engineering trade-offs, architecture, security, operations aur business context bhi shamil hain.
 
 ## Start here
