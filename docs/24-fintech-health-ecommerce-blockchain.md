@@ -1,5 +1,9 @@
 # 24. Specialist Business Domains: FinTech, Health IT, E-commerce & Blockchain
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 ## 1. FinTech and payments
 Payment systems must model states precisely: initiated, authorized, captured, settled, refunded, reversed, disputed. A UI success message should not imply settlement unless the underlying payment status confirms it. Webhooks can be delayed, duplicated or arrive out of order; verify signatures, persist event IDs and process idempotently.
 
