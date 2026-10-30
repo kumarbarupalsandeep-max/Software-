@@ -64,3 +64,39 @@ P --> V[Verify version and date]
 V --> X[Compare alternatives]
 X --> N[Write notes and citations]
 ```
+
+
+## Practical deep dive: technical research ko reliable kaise banayein?
+
+### Source hierarchy
+- Official standards/specification: protocol ya standard ka authoritative text.
+- Official vendor documentation: vendor ke product behaviour aur supported configuration.
+- Peer-reviewed research/recognized technical publication: methods and evidence, context ke saath.
+- Community posts/blogs: practical clues; version, author expertise aur independent verification check karo.
+- Search snippets/social posts: discovery ke liye useful, final proof ke liye usually insufficient.
+
+Official documentation bhi outdated ya product-specific ho sakti hai. Date, version, scope aur assumptions note karo.
+
+### Research workflow
+1. Question ko narrow karo: exactly kya verify karna hai?
+2. Search terms aur inclusion criteria likho.
+3. Primary sources se claim check karo.
+4. Competing options aur limitations bhi padho.
+5. Tested version/environment record karo.
+6. Findings, evidence, uncertainty aur recommendation separate likho.
+7. Review date set karo agar facts change ho sakte hain.
+
+### Claim-evidence table
+| Claim | Evidence needed | Confidence | Open question |
+|---|---|---|---|
+| Feature is supported | Current official docs/test | High if directly verified | Plan/region differences? |
+| Tool is free | Current pricing/terms | Medium until terms reviewed | Usage limits? |
+| System is secure | Threat model + tests + evidence | Never assume from marketing alone | Which risks remain? |
+
+### Practice lab
+Ek technology choice par 3 official/primary sources compare karo. Publication/update date, product/version, key finding, limitations aur decision impact record karo. Unsupported marketing claims ko clearly mark karo.
+
+### Further learning
+- [NIST Computer Security Resource Center](https://csrc.nist.gov/)
+- [RFC Editor](https://www.rfc-editor.org/)
+- [W3C Standards](https://www.w3.org/standards/)
