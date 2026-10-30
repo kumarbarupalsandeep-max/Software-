@@ -113,3 +113,7 @@ HR system se employee joiner/mover/leaver events ke through email aur project to
 **Leaver:** termination event is authorized → access is disabled/revoked according to policy → sessions/tokens are handled → assets/data ownership transferred → retention and audit requirements followed.
 
 Failure cases include duplicate events, delayed HR updates, unavailable downstream apps and partial provisioning. Use idempotent processing, reconciliation reports, clear ownership and alerts for incomplete access changes. High-risk access removal may require a faster controlled path than ordinary batch provisioning.
+
+
+## Lab review checklist
+A strong identity/integration design states event ownership, authentication, authorization, retries, duplicate handling, audit trail and failure reconciliation. Test delayed, duplicated and failed provisioning events, especially employee exit and removal of privileged access. Do not assume SSO alone solves application authorization.
