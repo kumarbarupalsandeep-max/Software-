@@ -125,3 +125,7 @@ Ek fictional IT company choose karo: website agency, SaaS task manager, ya manag
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: verify examples and links, add worked pricing calculation, and validate the chapter against the master coverage map.
+
+
+## Lab review checklist
+A strong submission should identify a specific customer and problem; compare at least two revenue models using explicit assumptions; separate fixed and variable costs; explain what value the customer receives over time; and list pricing, cancellation, tax/legal and delivery-cost assumptions that need validation. Exact prices cannot be judged without market and cost evidence.
