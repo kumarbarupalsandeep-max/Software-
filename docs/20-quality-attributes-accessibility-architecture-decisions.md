@@ -90,3 +90,16 @@ Ek dashboard ke liye 4 measurable quality requirements likho. Do architecture op
 - [W3C WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Google SRE Book](https://sre.google/sre-book/table-of-contents/)
 - [Architecture Decision Records](https://adr.github.io/)
+
+
+## Quick answer guide
+1. Quality requirements need measurable conditions, such as a latency percentile under a defined load.
+2. An ADR records context, options, the chosen decision and consequences.
+3. Automated accessibility scans find some issues but cannot guarantee a usable experience for every disabled user.
+4. Availability and recoverability are different: a service may be available now but still have weak disaster recovery.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add a sample ADR and measurable non-functional requirement set, then verify WCAG references.
