@@ -178,3 +178,13 @@ DB --> BACK[Backup and recovery]
 ```
 
 This is a simplified logical diagram. A production design must define where tenant identity is derived and validated, how data isolation is enforced, and how caches, background jobs, exports, support access and backups preserve tenant boundaries.
+
+
+## Further learning — official documentation
+- [MDN — Using Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
+- [MDN — HTTP Caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching)
+- [Google Cloud — Load Balancing documentation](https://docs.cloud.google.com/load-balancing/docs/)
+- [Microsoft Learn — Resource isolation with multiple tenants](https://learn.microsoft.com/en-us/entra/architecture/secure-multiple-tenants)
+- [AWS Well-Architected — Safe deployment strategies](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_mit_deploy_risks_deploy_mgmt_sys.html)
+
+These references cover particular platforms or concepts; their implementation details are not universal across vendors.
