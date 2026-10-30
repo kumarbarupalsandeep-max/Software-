@@ -107,3 +107,16 @@ Ek small notes ya product-catalog PWA ka plan banao. Decide karo kya offline ava
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: check current browser support/limitations and test the linked service-worker lifecycle diagram.
+
+
+## Mini-lab: test offline behaviour safely
+
+1. Use a local demo app or one you own.
+2. Open browser developer tools and inspect the Application/Storage and Network panels.
+3. Record which assets are cached after first load.
+4. Switch the test browser to offline mode and reload.
+5. Verify which screen works offline and which actions correctly report that a network is required.
+6. Update an asset, deploy a new version in the test environment and verify stale caches are handled.
+7. Log out and inspect whether private data remains accessible in the shared browser profile.
+
+Expected learning: offline support is selective; caching policy, update lifecycle and private-data handling need explicit design. Browser support differs, so repeat on target platforms.
