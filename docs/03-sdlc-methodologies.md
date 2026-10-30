@@ -139,3 +139,19 @@ Ek login ya leave-request feature ke liye 5 functional requirements, 3 non-funct
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a worked estimation example and verify all SDLC topics against the master map.
+
+
+## Worked example: feature delivery from request to release
+
+**Request:** “Employees should request annual leave online.”
+
+1. **Clarify rules:** allowed dates, balance calculation, public holidays, approval chain, cancellation and time-zone rules.
+2. **Define scope:** submit request, view status, approve/reject. Payroll integration is out of scope for the first release unless explicitly required.
+3. **Write acceptance criteria:** employee sees only own requests; manager sees only assigned team requests; rejected requests show reason; overlapping/invalid dates are rejected.
+4. **Design:** data model, permission checks, API contract, audit trail and error states.
+5. **Implement in small increments:** first read-only balance, then request submission, then manager approval.
+6. **Test:** valid request, zero balance, invalid dates, unauthorized access, duplicate submission and database timeout.
+7. **Release:** deploy to test users, monitor errors, then expand access.
+8. **Review:** compare actual usage/support tickets with the intended outcome.
+
+**Done means evidence:** acceptance criteria pass, permissions are tested, known limitations are documented, monitoring exists and support knows how to troubleshoot.
