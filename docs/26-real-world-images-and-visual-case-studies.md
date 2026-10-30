@@ -1,5 +1,9 @@
 # 26. Real-World Images & Visual Case Studies
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 Is chapter mein official technical documentation ke real reference diagrams embed kiye gaye hain. Ye actual platform architecture/lifecycle diagrams hain; inke saath repository ke chapters mein simplified Mermaid diagrams bhi hain taaki concepts beginner-friendly rahen.
 
 ## 1. Kubernetes cluster architecture
