@@ -1,5 +1,9 @@
 # Chapter 28 — End-to-End IT Industry Case Studies & Assessment
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 Is chapter ka goal alag-alag concepts ko ek real project mein jodna hai. Examples simplified learning scenarios hain, production architecture ki guarantee nahi.
 
 ## Case Study A: Small business appointment SaaS
