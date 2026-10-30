@@ -64,3 +64,37 @@ P --> I[Implementation]
 I --> A[Adoption and support]
 A --> R[Renewal or expansion]
 ```
+
+
+## Practical deep dive: commercial, legal aur procurement basics
+
+### Customer deal lifecycle
+Lead → discovery → proposal/statement of work → commercial/legal review → agreement → delivery → acceptance → invoice/payment → support/renewal. Real organizations mein stages aur approval controls differ karte hain.
+
+### Contract documents ka role
+- **Proposal:** recommended solution, approach aur estimated cost.
+- **SOW (Statement of Work):** scope, deliverables, assumptions, responsibilities, timeline aur acceptance process.
+- **SLA:** agreed service levels, measurement aur remedies/limitations where applicable.
+- **DPA:** personal data processing responsibilities define kar sakta hai.
+- **Change request:** approved scope/budget/timeline changes record karta hai.
+
+Ye educational overview hai, legal advice nahi. Contract aur privacy requirements jurisdiction aur business context ke hisaab se qualified professional se review karayein.
+
+### Procurement checklist
+Requirements, vendor due diligence, security/privacy review, pricing model, support hours, uptime commitments, data location/retention, accessibility, integration, exit/export plan, renewal terms aur hidden costs compare karo.
+
+### Cost concepts
+- One-time implementation vs recurring license/support
+- Internal staff time and training
+- Migration/integration costs
+- Usage, storage, data transfer and support tiers
+- Exit cost and vendor lock-in risk
+
+Lowest initial price hamesha lowest total cost nahi hoti.
+
+### Practice lab
+Ek small company ke liye project SOW outline banao: goals, in-scope/out-of-scope, deliverables, acceptance criteria, assumptions, roles, timeline, payment milestones, support, data handling aur change-control process.
+
+### Further learning
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [U.S. Federal Acquisition Regulation (reference example)](https://www.acquisition.gov/browse/index/far) — procurement rules vary by jurisdiction.
