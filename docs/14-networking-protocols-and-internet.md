@@ -146,3 +146,7 @@ Use a website you own or are authorized to test.
 7. Change one variable at a time and note whether it changes the result.
 
 **Interpretation caution:** DNS, routing, TLS, browser extensions, proxy rules and server errors can create overlapping symptoms. A single failed request does not identify the root cause.
+
+
+## Lab review checklist
+A strong troubleshooting note records the exact symptom/time, scope, tests performed, observed outputs and next hypothesis. Change one variable at a time and use only authorized systems. Avoid concluding “DNS issue” or “server issue” without evidence that distinguishes those possibilities.
