@@ -1,5 +1,9 @@
 # 21. Career Roadmap, Hands-on Labs, Glossary & Self-Assessment
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 ## 1. Role map
 - Frontend: browser UI, accessibility, performance.
 - Backend: business logic, APIs, persistence, security.
