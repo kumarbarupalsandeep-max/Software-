@@ -61,3 +61,31 @@ P --> T[User testing]
 T --> M[Measure outcome]
 M --> R
 ```
+
+
+## Practical deep dive: product idea ko testable scope mein badalna
+
+### Discovery se pehle
+- User aur unka context identify karo.
+- Problem ko solution se alag likho.
+- Interviews/observations se evidence collect karo.
+- Assumptions ko label karo; unhe confirmed facts mat samjho.
+- Existing workaround aur competing solutions samjho.
+- Success metric aur unacceptable outcomes define karo.
+
+### Prioritization
+MoSCoW (Must/Should/Could/Won't for now) ya impact-vs-effort matrix jaise simple methods use kar sakte ho. Score ek decision aid hai, objective truth nahi. Security, accessibility, legal obligations aur reliability ko sirf low-feature-priority kehkar ignore nahi karna chahiye.
+
+### UX flow aur states
+Har important flow mein initial state, loading, success, empty, validation error, network error, permission denied aur recovery/next step socho. UI sirf ideal happy path par design na karo.
+
+### Project risks
+Risk register mein risk, likelihood, impact, owner, mitigation, trigger aur contingency likho. Dependencies, assumptions, decision log aur change requests ko visible rakho. Scope change ka timeline, cost, quality aur risk par impact assess karo.
+
+### Practice lab
+Ek employee leave-request feature ke liye persona/context, problem statement, 5 user stories, acceptance criteria, user flow, 5 risks, priority rationale aur success metrics likho. 2 users se prototype feedback lene ka plan bhi banao.
+
+### Further learning
+- [Nielsen Norman Group](https://www.nngroup.com/articles/)
+- [Atlassian Agile Coach](https://www.atlassian.com/agile)
+- [W3C Accessibility](https://www.w3.org/WAI/)
