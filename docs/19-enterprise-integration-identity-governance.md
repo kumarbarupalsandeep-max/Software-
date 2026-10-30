@@ -1,5 +1,9 @@
 # 19. Enterprise Integration, Identity, Governance & Compliance
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 ## 1. Enterprise reality
 Large organizations have many apps, teams, data owners, legacy systems and regulatory obligations. The hard problem is often process, ownership and integration—not merely coding. Map systems, data flows, trust boundaries and business owners before selecting architecture.
 
