@@ -180,7 +180,7 @@ A chapter may be marked **Deeply reviewed** only when:
 
 ### Repository-wide final audit
 Before saying the repository is complete:
-- Review every chapter from 01 to 27, not just the README.
+- Review every chapter from 01 to the latest numbered chapter, not just the README. At the current audit checkpoint, this means chapters 01–30.
 - Check every internal Markdown link and important external URL.
 - Check all Mermaid blocks render and diagrams match the explanation.
 - Check repeated, contradictory, outdated or too-advanced explanations.
