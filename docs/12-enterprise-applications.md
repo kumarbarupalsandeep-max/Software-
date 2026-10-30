@@ -38,3 +38,39 @@ CRM[CRM] --> I
 ERP[ERP] --> I
 I --> D[(Shared data platform)]
 ```
+
+
+## Practical deep dive: enterprise applications
+
+### Common systems
+- **ERP:** finance, purchasing, inventory aur operations ko connect kar sakta hai.
+- **CRM:** customer, sales aur relationship records manage karta hai.
+- **HRMS/HCM:** employee lifecycle, leave, payroll-related workflows.
+- **CMS:** digital content manage/publish karta hai.
+- **DMS:** documents, versions, access aur retention.
+- **BI:** data ko reports/dashboards mein convert karta hai.
+- **Workflow/BPM:** approvals aur repeatable business processes coordinate karta hai.
+
+Products ke exact features vendor aur configuration par depend karte hain.
+
+### Buy, build or configure?
+1. **Buy:** existing product use karo; speed aur vendor support mil sakta hai, par fit/licensing limits ho sakti hain.
+2. **Build:** custom software; tailored fit, lekin maintenance aur ownership cost aapki.
+3. **Configure/extend:** existing platform ko adapt karo; customization limits aur upgrade compatibility consider karo.
+
+Decision mein business fit, total cost of ownership, integration, security, data export, vendor exit aur staff training include karo.
+
+### Implementation lifecycle
+Discovery → process mapping → data cleanup → configuration → integration → migration rehearsal → user acceptance testing → training → cutover → hypercare/support → continuous improvement.
+
+Data migration mein field mapping, duplicate detection, record counts, totals/reconciliation, access controls aur rollback/restore plan zaroori hote hain.
+
+### Mini case: HR leave system
+Employee, manager, HR aur payroll ki permissions alag define karo. Approval rules, public holidays, time zones, audit trail, export access aur employee exit process test karo. Salary ya personal data ko demo screenshots mein expose na karo.
+
+### Practice lab
+Ek small business ke liye CRM ya HRMS selection matrix banao: required features, integration, cost, data export, access control, support, accessibility, migration effort aur vendor exit plan. Har criterion ko weight dene ka reason likho.
+
+### Further learning
+- [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
