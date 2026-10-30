@@ -102,3 +102,20 @@ Ek employee leave-request feature ke liye persona/context, problem statement, 5 
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add an example discovery brief and complete acceptance-criteria walkthrough.
+
+
+## Worked example: improve a confusing signup form
+
+**Observation:** users often abandon signup at the phone-number field.  
+**Do not assume:** the field is definitely the cause; collect evidence first.
+
+1. Review funnel data and privacy-safe error analytics.
+2. Observe usability sessions with consent and avoid collecting unnecessary personal data.
+3. Check label clarity, accepted formats, error recovery, mobile keyboard and screen-reader announcement.
+4. Form a hypothesis: “Clear examples and inline validation will reduce phone-format errors.”
+5. Define success metric and guardrails before testing.
+6. Test the change with an appropriate sample/experiment design.
+7. Review results by device/accessibility needs where privacy-safe and statistically meaningful.
+8. Document what changed and what remains uncertain.
+
+Success is not just a prettier form; it is an evidence-backed improvement in task completion without introducing new barriers.
