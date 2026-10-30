@@ -96,3 +96,17 @@ Runbook tested steps ka document hai jo routine task ya incident handle karne me
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a sample ticket and incident timeline, then validate terminology against current ITSM references.
+
+
+## Worked incident ticket: portal is slow
+
+**Title:** Employee portal list page takes over 8 seconds for multiple users  
+**Impact:** Several users cannot complete normal work; exact affected scope being confirmed.  
+**Started:** Record the observed time and timezone.  
+**Evidence:** Request/correlation IDs, browser timing screenshot with private data hidden, error/latency dashboard and recent release history.  
+**Actions:** Check whether the issue is widespread, compare latency/error rates, inspect recent changes, and route to the service owner.  
+**Communication:** Tell users what is affected, what workaround is safe, and when the next update will arrive.  
+**Recovery check:** Verify normal latency and successful user workflows; monitor for recurrence.  
+**Follow-up:** Record contributing causes and assign preventive actions with owners/dates.
+
+Do not claim a root cause until evidence supports it. Redact credentials, session cookies and unnecessary personal data from logs/screenshots.
