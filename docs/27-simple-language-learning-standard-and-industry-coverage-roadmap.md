@@ -180,7 +180,7 @@ A chapter may be marked **Deeply reviewed** only when:
 
 ### Repository-wide final audit
 Before saying the repository is complete:
-- Review every chapter from 01 to the latest numbered chapter, not just the README. At the current audit checkpoint, this means chapters 01–30.
+- Review every chapter from 01 to the latest numbered chapter, not just the README. At the current audit checkpoint, this means chapters 01–31.
 - Check every internal Markdown link and important external URL.
 - Check all Mermaid blocks render and diagrams match the explanation.
 - Check repeated, contradictory, outdated or too-advanced explanations.
@@ -195,4 +195,4 @@ Before saying the repository is complete:
 - Content milestone: defines the learning template, industry roadmap and evidence-based completion gate.
 - Verification status: process standard is present; the full repository has not yet passed the gate.
 - Last content expansion: 2026-10-30.
-- Next review: use the gate to assess chapters 01–30 individually, record evidence and unresolved gaps, and update statuses only after verification.
+- Next review: use the gate to assess chapters 01–31 individually, record evidence and unresolved gaps, and update statuses only after verification.
