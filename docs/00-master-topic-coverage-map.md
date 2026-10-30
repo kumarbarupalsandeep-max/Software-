@@ -128,6 +128,7 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 | 28 — End-to-end case studies | Case studies and 100-point assessment rubric | Validate scenarios, then add runnable labs and evidence |
 | 29 — High-impact technical gaps | OS/concurrency, Git, CDN/cache/load balancing, IaC, APIs, performance, data and AI/RAG | Verify references and add reproducible labs with expected outputs |
 | 30 — Advanced web architecture | Multi-app, multi-tenant, micro-frontends, safe releases, CDN, load balancing, browser concurrency | Add provider-specific examples, runnable labs and primary-source checks |
+| 31 — Specialist engineering and safety | Compilers, formal methods, telecom, HPC, GPUs, OT, forensics and sustainability | Add worked domain cases and specialist standards review |
 
 **Next audit loop:** review one chapter at a time against the chapter-27 standard; verify technical claims and primary references; add missing explanations, examples, diagrams, practical tasks and answer keys; then update this table only when evidence supports the new status.
 
@@ -148,10 +149,10 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 
 ### Audit checkpoint — 2026-10-30
 
-- [x] Repository listing checked: numbered chapters 01–30 are present.
+- [x] Repository listing checked: numbered chapters 01–31 are present.
 - [x] README internal Markdown links checked against repository files: no broken README links found in this check.
 - [x] Internal links checked in the master map, learning-standard chapter and Chapters 28–30: no broken links found in this check.
-- [x] Markdown code-fence counts checked across Chapters 01–30: no unbalanced code fences found.
+- [x] Markdown code-fence counts checked across Chapters 01–31: no unbalanced code fences found.
 - [x] Selected official references spot-checked (MDN PWA/Web Workers/HTTP caching, NIST SSDF, OWASP Top 10, W3C WCAG, OpenID Foundation, cloud load-balancing/safe-deployment docs).
 - [ ] Full external-link validation for every URL.
 - [ ] Full claim-by-claim technical accuracy review for Chapters 01–30.
