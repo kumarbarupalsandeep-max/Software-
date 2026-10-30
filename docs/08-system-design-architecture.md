@@ -49,3 +49,50 @@ API --> Q[Queue for background work]
 ![Official Kubernetes cluster architecture diagram](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg)
 
 Source: [Kubernetes official architecture documentation](https://kubernetes.io/docs/concepts/architecture/). Control plane, worker nodes aur workloads ke roles identify karein.
+
+
+## Practical deep dive: system design kaise sochte hain?
+
+System design ka matlab components draw karna bhar nahi. Pehle problem, scale, data, constraints, risks aur operational needs samjho.
+
+### Design se pehle sawal
+1. Kaun use karega aur kaun se core workflows hain?
+2. Approximate users, request rate, data volume aur growth kya hai?
+3. Availability, latency aur recovery expectations kya hain?
+4. Data sensitive hai? Tenant isolation ya compliance needs hain?
+5. Budget, team skills aur delivery deadline kya hain?
+6. Failure hone par user ko kya behaviour dikhna chahiye?
+
+### Basic building blocks
+- Client/frontend
+- DNS/CDN and edge caching
+- Load balancer or API gateway
+- Application services
+- Database and cache
+- Queue/background workers
+- Object/file storage
+- Identity provider
+- Logs, metrics, traces and alerting
+
+Har app ko har component ki zaroorat nahi. Simple modular monolith, carefully designed, chhote product ke liye microservices se behtar ho sakta hai.
+
+### Common trade-offs
+- **Cache:** latency aur database load reduce kar sakta hai, lekin stale data aur invalidation complexity laata hai.
+- **Replication:** read availability/capacity improve kar sakti hai, lekin lag aur consistency trade-offs hote hain.
+- **Partitioning/sharding:** large datasets distribute kar sakta hai, lekin queries aur operations complex banata hai.
+- **Queues:** background work aur traffic bursts absorb kar sakti hain, lekin eventual completion, retries aur duplicate processing handle karni hoti hai.
+- **Microservices:** independent ownership/deployment enable kar sakte hain, lekin network failures, observability aur distributed data complexity badhate hain.
+
+### Back-of-the-envelope estimation
+Rough estimate se order of magnitude samajhne ki koshish karo:
+- Daily requests ÷ 86,400 ≈ average requests per second.
+- Peak traffic average se kaafi zyada ho sakta hai, isliye peak factor explicitly assume karo.
+- Stored data estimate mein records/day × average record size × retention days consider karo; indexes, replicas aur backups extra space lete hain.
+Ye estimates initial planning ke liye hain; real metrics se validate karna zaroori hai.
+
+### Practice lab
+Ek ticket-booking system ka high-level diagram banao. Double booking, traffic spike, database outage aur delayed email ke failure cases likho. Har case ke liye prevention, detection aur recovery approach explain karo.
+
+### Further learning
+- [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
+- [Google SRE Book](https://sre.google/sre-book/table-of-contents/)
