@@ -1,5 +1,9 @@
 # 01 — Software & IT Fundamentals
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 [← Learning index](../README.md) · [Master topic map](00-master-topic-coverage-map.md)
 
 > **Learning goal:** Is chapter ke baad aap simple language mein samjha sakoge ki software, IT aur IT services kya hain, companies technology se business problems kaise solve karti hain, aur ek basic software project kaise chalta hai.
