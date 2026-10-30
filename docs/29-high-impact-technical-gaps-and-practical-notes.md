@@ -1,5 +1,9 @@
 # Chapter 29 — High-Impact Technical Topics: Easy Explanations & Practical Notes
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 Ye chapter un topics ko beginner-friendly tareeke se connect karta hai jo ek broad IT syllabus mein aksar sirf naam ke taur par reh jaate hain. Har topic ko actual project ki need ke hisaab se deeper lab ki zaroorat ho sakti hai.
 
 ## 1. Operating system, process and thread
