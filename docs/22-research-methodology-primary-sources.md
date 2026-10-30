@@ -127,3 +127,7 @@ This was a spot-check, not a full automated validation of every external link in
 
 
 - NIST OT security publication check: SP 800-82 Rev. 3 is the final guide listed, while Rev. 4 appeared as an initial public draft on September 21, 2026. A draft should not be presented as a final standard. See [NIST Rev. 3](https://csrc.nist.gov/pubs/sp/800/82/r3/final) and [NIST Rev. 4 draft](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd).
+
+
+## Lab review checklist
+A strong research note contains a precise question, source/version/date, a summary of evidence, limitations, confidence and unresolved questions. Prefer primary sources for specifications and distinguish final standards from drafts. Re-check any version-sensitive claim before implementation.
