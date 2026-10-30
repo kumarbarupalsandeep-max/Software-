@@ -107,3 +107,16 @@ Ek employee portal ke liye asset list, 5 threats, risk level, preventive control
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: map each security section to current OWASP/NIST guidance and add a threat-model worked example.
+
+
+## Worked threat-model example: employee leave portal
+
+| Asset/flow | Threat | Potential impact | Example control | Evidence to test |
+|---|---|---|---|---|
+| Leave balance API | User changes employee ID in request | Private data exposure | Server-side object-level authorization | Test user A cannot read user B record |
+| Login/session | Stolen session token | Account misuse | Secure cookie/session settings, expiry and revocation | Verify logout/session invalidation policy |
+| Approval workflow | Unauthorized approval action | Incorrect leave status | Role and relationship checks on server | Employee role cannot call manager approval API |
+| Logs | Sensitive details written to logs | Privacy/security exposure | Structured redaction and restricted log access | Search test logs for secrets/PII |
+| Recovery | Ransomware or accidental deletion | Service/data loss | Protected backups and restore drills | Record a successful restore test |
+
+A threat model lists plausible risks; it does not prove a system secure. Prioritize by likelihood, impact and context, then test the controls. Do not use real employee data in a demo lab.
