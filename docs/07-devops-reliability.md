@@ -100,3 +100,16 @@ Demo app ke liye release checklist, 3 service metrics, 2 alert rules, rollback c
 - [Google SRE Book](https://sre.google/sre-book/table-of-contents/)
 - [DORA](https://dora.dev/)
 - [OpenTelemetry Documentation](https://opentelemetry.io/docs/)
+
+
+## Quick answer guide
+1. Metrics show numerical trends, logs record events, and traces connect work across components.
+2. SLI is the measurement; SLO is a target for it; SLA is a customer-facing agreement that may define consequences.
+3. A gradual rollout limits exposure and helps detect issues, but needs health checks and a safe mitigation path.
+4. Postmortems should focus on contributing conditions and actionable system improvements, not blame.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: validate deployment strategies and add an example service-level calculation.
