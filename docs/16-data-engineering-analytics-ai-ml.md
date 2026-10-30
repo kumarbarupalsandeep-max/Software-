@@ -1,5 +1,9 @@
 # 16. Data Engineering, Analytics, AI & Machine Learning
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 ## 1. Data lifecycle
 Source systems → ingestion → validation → storage → transformation → analytics/model → decision/action → monitoring. Data quality, lineage, access controls and retention har stage par matter karte hain.
 
