@@ -54,3 +54,39 @@ M --> B[Compare with SLO]
 B -->|budget healthy| D[Continue delivery]
 B -->|budget exhausted| R[Reduce risk and improve reliability]
 ```
+
+
+## Practical deep dive: quality attributes aur architecture decisions
+
+### Quality attributes ko measurable banao
+- **Availability:** agreed period mein service kitni accessible thi.
+- **Latency:** request ko response milne mein kitna time laga; p50/p95/p99 jaise percentiles tail experience dikhate hain.
+- **Scalability:** demand badhne par system kaise handle karta hai.
+- **Maintainability:** changes ko safely samajhna aur implement karna kitna easy hai.
+- **Accessibility:** disabled users samet diverse users system use kar sakein.
+- **Security/privacy:** data aur actions risks ke against kaise protected hain.
+- **Recoverability:** failure ke baad service/data kitni jaldi restore ho sakte hain.
+
+“Fast”, “secure” aur “reliable” vague words hain jab tak conditions aur measurement define na hon.
+
+### Architecture Decision Record (ADR)
+Short ADR mein:
+1. Context/problem
+2. Decision drivers
+3. Options considered
+4. Chosen option
+5. Consequences and trade-offs
+6. Review date/trigger
+
+Decision ko future team ke liye understandable banao; sirf “because best practice” reason kaafi nahi.
+
+### Accessibility review basics
+Keyboard-only operation, visible focus, meaningful labels, heading structure, contrast, error identification, zoom/reflow aur screen-reader semantics check karo. Automated tools helpful hain lekin human testing aur assistive technology checks ka replacement nahi.
+
+### Practice lab
+Ek dashboard ke liye 4 measurable quality requirements likho. Do architecture options compare karo, ADR banao aur keyboard/accessibility test checklist attach karo.
+
+### Further learning
+- [W3C WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [Google SRE Book](https://sre.google/sre-book/table-of-contents/)
+- [Architecture Decision Records](https://adr.github.io/)
