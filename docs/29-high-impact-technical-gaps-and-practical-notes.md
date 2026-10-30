@@ -125,3 +125,21 @@ Rough estimates planning tools hain, production sizing ka substitute nahi. Real 
 - Verification status: conceptual notes; runnable labs and primary-source review still pending.
 - Last content expansion: 2026-10-30.
 - Next review: map each section to relevant core chapters, verify official references, and add reproducible labs with expected outputs.
+
+
+## Quick self-check answer guide
+
+1. **Concurrency vs parallelism:** concurrency is overlapping progress among tasks; parallelism means tasks execute at the same time on separate execution resources.
+2. **Why can frontend validation be bypassed?** Browser code and requests are under user control; the server must enforce permissions and business rules.
+3. **Why is cache invalidation important?** Cached content may be stale or, if the cache key/policy is wrong, expose user-specific data.
+4. **Why can autoscaling fail to solve latency?** The bottleneck may be a database, a third-party dependency, a quota, a lock or a slow startup time.
+5. **Why must webhooks handle duplicates?** Sender retries may deliver an event more than once; receiver should use event identifiers/idempotent processing.
+6. **Does RAG guarantee correct AI output?** No. Retrieval may be incomplete/wrong and the model can still produce unsupported claims.
+7. **What does IaC not automatically guarantee?** Safe configuration. Plans, permissions, reviews, state protection and verification remain necessary.
+8. **Why measure performance before optimizing?** A measured baseline helps identify the actual bottleneck and verify whether a change improved it.
+9. **Does an SBOM prove all dependencies are safe?** No. It is an inventory that supports further security and licensing review.
+10. **What makes a capacity estimate useful?** Explicit assumptions, ranges, peak demand, overheads and later validation against real measurements.
+
+## Practice outcomes to submit
+For each mini-practice above, save one artifact in your own study notes: a browser performance observation, a Git branch/PR rehearsal, a cache policy table, an IaC change checklist, an API/webhook contract, a data pipeline diagram or an AI/RAG evaluation plan. Record the test environment and what remains unverified.
+
