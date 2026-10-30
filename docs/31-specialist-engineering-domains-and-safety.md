@@ -1,5 +1,9 @@
 # Chapter 31 — Specialist Engineering Domains & Safety Considerations
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 This chapter expands specialist branches listed in the master coverage map. These are introductions, not substitutes for domain-specific engineering training, certification or safety review.
 
 ## 1. Compilers and programming language tools
