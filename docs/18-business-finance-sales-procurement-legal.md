@@ -98,3 +98,16 @@ Ek small company ke liye project SOW outline banao: goals, in-scope/out-of-scope
 ### Further learning
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [U.S. Federal Acquisition Regulation (reference example)](https://www.acquisition.gov/browse/index/far) — procurement rules vary by jurisdiction.
+
+
+## Quick answer guide
+1. A proposal recommends an approach; an SOW defines agreed scope/deliverables and related responsibilities.
+2. Total cost of ownership includes more than the initial purchase price.
+3. Vendor review should consider security, privacy, support, integration, renewal and exit/data-export terms.
+4. Contract and legal obligations vary by jurisdiction and situation; this chapter is educational, not legal advice.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: check that legal/commercial explanations remain general and add a worked TCO comparison.
