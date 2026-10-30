@@ -84,3 +84,16 @@ External image ko educational use mein embed karne se pehle source, license/term
 - [Kubernetes Architecture documentation](https://kubernetes.io/docs/concepts/architecture/)
 - [MDN Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
 - [W3C Web Accessibility Initiative](https://www.w3.org/WAI/)
+
+
+## Quick answer guide
+1. A diagram's arrows and boundaries must be interpreted from its legend/context; they may show data flow, control flow or network traffic.
+2. An official-hosted image is not automatically licensed for redistribution; check usage terms.
+3. A simplified teaching diagram must not be represented as a real production architecture.
+4. Alt text should convey the image's relevant meaning, not merely say “diagram”.
+
+## Review status
+- Content milestone: visual-study guidance and image gallery.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: check each image URL, its source/terms, meaningful alt text, and whether local copies or links are appropriate.
