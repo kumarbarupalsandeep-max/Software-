@@ -1,5 +1,9 @@
 # Master Topic Coverage Map — Software & IT Services
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 Is document ka goal ek broad audit checklist dena hai taaki learning plan mein major domains miss na hon. IT bahut large field hai; har domain ke andar specialist-level subtopics aur naye standards aate rehte hain. Isliye is map ko living checklist samjhein, absolute claim nahi ki duniya ka har niche topic included hai.
 
 **Important coverage note:** Is file mein `[x]` ka matlab hai ki topic ka zikr ya basic introduction learning library mein maujood hai—iska matlab ye nahi ki woh topic expert-level depth mein complete hai. Deep completion ke liye [Chapter 27: Simple-Language Standard & Industry Coverage Roadmap](27-simple-language-learning-standard-and-industry-coverage-roadmap.md) ka quality checklist follow karein. Gaps ko audit karke chapters ko examples, diagrams, failure cases, practical labs aur official references se expand karna baaki ho sakta hai.
