@@ -104,3 +104,7 @@ IoT temperature-monitoring device ka high-level design banao: sensor, firmware, 
 | Device reaches end-of-support | Document lifecycle and replacement process | Verify ownership and support dates |
 
 This is a starting checklist, not a complete IoT security assessment. Physical safety and sector-specific requirements may need specialist review.
+
+
+## Lab review checklist
+A strong specialist-domain submission identifies the physical/data/system boundary, consequences of failure, domain constraints, safe test environment and lifecycle/support needs. For physical systems, include fail-safe behaviour and specialist review requirements. Do not test live equipment or networks without explicit authorization.
