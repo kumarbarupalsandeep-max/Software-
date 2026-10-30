@@ -161,3 +161,21 @@ Before calling the project complete, answer:
 - Verification status: educational scenarios; not a production design review.
 - Last content expansion: 2026-10-30.
 - Next review: validate case studies against chapters 02–25, add runnable code labs in relevant chapters, and check external references.
+
+
+## Visual: appointment booking request path
+
+```mermaid
+flowchart TD
+U[Customer browser] --> API[HTTPS API]
+API --> AUTH[Authentication and authorization]
+AUTH --> BOOK[Booking business rules]
+BOOK --> DB[(Booking database)]
+BOOK --> Q[Reminder queue]
+Q --> W[Background worker]
+W --> MSG[Email/SMS provider]
+API --> OBS[Logs, metrics and traces]
+BOOK --> OBS
+```
+
+This is a simplified teaching diagram. Exact component boundaries depend on the implementation. The booking transaction must protect against conflicting reservations; reminder delivery is a separate workflow and may be delayed or retried.
