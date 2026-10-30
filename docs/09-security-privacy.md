@@ -124,3 +124,7 @@ A threat model lists plausible risks; it does not prove a system secure. Priorit
 
 ### Version note for OWASP references
 The official OWASP Top 10 project page lists **OWASP Top 10:2025** as the current released version at the time this chapter was checked (2026-10-30). Use the project's versioned documentation when studying a specific release. The Top 10 is an awareness document, not a complete security test plan or proof of compliance.
+
+
+## Lab review checklist
+A strong threat model identifies assets, trust boundaries, plausible threats, impact, controls, verification evidence and residual risk. Include authorization tests that attempt cross-user or cross-role access. Do not store secrets in the repository or use real personal data in screenshots/logs. High-risk unresolved issues should be called out as blockers, not hidden by a numeric score.
