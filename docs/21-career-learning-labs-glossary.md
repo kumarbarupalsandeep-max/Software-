@@ -142,3 +142,7 @@ Apni target role ke liye ek 4-week plan banao. Har week ka measurable deliverabl
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: check glossary coverage against every chapter and add answer keys to all included labs.
+
+
+## Lab review checklist
+A strong learning plan records current ability, target skill, weekly artifact, verification method, feedback and next steps. Glossary entries should be explained in plain language and used in an example. Portfolio evidence must be reproducible and must not disclose credentials, private data or assets without permission.
