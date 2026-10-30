@@ -46,3 +46,83 @@ S --> B[Build and test]
 B --> R[Review and feedback]
 R --> P
 ```
+
+
+## Deep learning: SDLC ko practical project par apply karo
+
+### Requirements ke 3 useful types
+1. **Functional:** system kya karega? Example: employee leave request submit kar sake.
+2. **Non-functional:** quality ya constraint kya hai? Example: common screen 2 seconds ke andar load ho under a defined test condition.
+3. **Business rule:** decision ka rule kya hai? Example: manager approval se pehle leave approved status mein nahi jayegi.
+
+**Weak requirement:** “App fast aur modern honi chahiye.”  
+**Better requirement:** “Given 1,000 sample records and the agreed test environment, the employee list should load within 2 seconds at the 95th percentile.” Actual target stakeholders aur measurement method ke saath agree karna chahiye.
+
+### User story aur acceptance criteria
+**User story:** “As an employee, I want to see my leave balance so that I can plan time off.”
+
+**Acceptance criteria:**
+- Logged-in employee apna balance dekh sake.
+- Employee doosre employee ka private balance na dekh sake.
+- No balance record ho to clear message aaye.
+- API/server error ho to user ko retry/help message mile; app silently incorrect balance na dikhaye.
+
+Acceptance criteria testable hone chahiye, sirf “works properly” nahi.
+
+### Methodologies ka practical comparison
+| Approach | Kab useful ho sakta hai | Trade-off |
+|---|---|---|
+| Waterfall/sequential | Requirements stable aur approvals formal hon | Late change expensive ho sakta hai |
+| V-Model | Verification/validation mapping important ho | Change management carefully plan karna hota hai |
+| Agile iterations | Feedback aur changing priorities common hon | Stakeholder availability aur prioritization chahiye |
+| Scrum | Team fixed cadence aur defined roles/events use karna chahe | Ceremonies ko unnecessary overhead na banne dein |
+| Kanban | Continuous incoming work aur flow management ho | Work-in-progress limits aur priority discipline chahiye |
+| Hybrid | Compliance, procurement ya legacy constraints ke saath iterative delivery | Interfaces aur decision ownership clear honi chahiye |
+
+Koi approach har project ke liye best nahi hota. Team, risk, customer feedback, regulation aur delivery constraints ke basis par choose karo.
+
+### Planning mein kya track karein?
+- Scope aur out-of-scope items
+- Milestones, dependencies aur owners
+- Risks, assumptions aur decisions
+- Estimates aur confidence level
+- Change requests aur unka impact
+- Defects, release readiness aur support handover
+
+Estimate commitment nahi hota. New information aane par estimate revise karna normal hai.
+
+### Mini case: leave-management feature
+1. Stakeholders se leave rules confirm karo.
+2. User story aur acceptance criteria likho.
+3. Happy path ke saath rejected request, overlapping dates, no balance aur permission failures test karo.
+4. Small change ko test environment mein release karo.
+5. Logs/metrics aur rollback plan check karo.
+6. Users se feedback lo aur next iteration plan karo.
+
+```mermaid
+flowchart TD
+R[Requirement] --> A[Acceptance criteria]
+A --> D[Design and implementation]
+D --> T[Automated and manual tests]
+T --> G{Release checks pass?}
+G -->|No| F[Fix and retest]
+F --> T
+G -->|Yes| P[Deploy gradually]
+P --> M[Monitor]
+M -->|Problem| B[Rollback or mitigate]
+M -->|Healthy| L[Learn and plan next iteration]
+```
+
+### Practice lab
+Ek login ya leave-request feature ke liye 5 functional requirements, 3 non-functional requirements, 5 acceptance criteria, 5 failure cases aur release checklist likho.
+
+### Knowledge check
+1. Requirement aur acceptance criterion mein difference?
+2. Agile ka matlab planning bilkul nahi hoti? **Nahi**—planning iterative ho sakti hai.
+3. Test pass hone ke baad bhi release risk kyun hota hai? Production config, data, traffic aur dependencies different ho sakte hain.
+4. Rollback aur hotfix ka purpose kya hai? Incident impact ko safely reduce karna; choice situation par depend karti hai.
+
+### Further learning
+- [Agile Manifesto](https://agilemanifesto.org/)
+- [Scrum Guide](https://scrumguides.org/scrum-guide.html)
+- [NIST Secure Software Development Framework (SSDF)](https://csrc.nist.gov/Projects/ssdf)
