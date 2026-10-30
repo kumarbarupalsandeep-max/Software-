@@ -83,3 +83,16 @@ Ek small project ke dependencies list karo. Har dependency ke liye purpose, vers
 - [Open Source Initiative licenses](https://opensource.org/licenses)
 - [GitHub Dependabot documentation](https://docs.github.com/en/code-security/dependabot)
 - [NIST Secure Software Development Framework](https://csrc.nist.gov/Projects/ssdf)
+
+
+## Quick answer guide
+1. A dependency can introduce licensing, maintenance, vulnerability and supply-chain risk.
+2. An SBOM inventories software components but does not prove they are all safe.
+3. License obligations depend on the exact license and how the component is used/distributed; review the license text.
+4. Lockfiles and version pins improve reproducibility but do not replace security review and updates.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: verify current GitHub/NIST/license resources and add a sample dependency inventory.
