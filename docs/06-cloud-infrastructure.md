@@ -96,3 +96,16 @@ Ek demo app ke liye architecture diagram banao. Har component ke liye purpose, d
 - [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
 - [Microsoft Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)
 - [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework)
+
+
+## Quick answer guide
+1. No. Customers still manage responsibilities such as identity, data, application configuration and some patching depending on the service.
+2. A VM gives more OS control but needs more maintenance; a managed platform reduces some operations but may impose platform limits.
+3. A backup that has never been restored may be incomplete, corrupt or unusable when needed.
+4. Cloud costs can include compute, storage, network transfer, managed services, support and operational work.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add a worked cloud deployment diagram and verify provider-specific examples.
