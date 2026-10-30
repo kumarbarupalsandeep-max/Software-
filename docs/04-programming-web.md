@@ -103,7 +103,7 @@ Ek product-list page ka static prototype banao:
 ### Further learning
 - [MDN — Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn_web_development)
 - [MDN — Accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility)
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [OWASP Top 10](https://owasp.org/projects/top-ten/)
 
 
 ## Quick answer guide
