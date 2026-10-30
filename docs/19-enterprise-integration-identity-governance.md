@@ -56,3 +56,38 @@ IDP -->|signed identity result| APP
 APP --> AUTH[Authorization checks]
 AUTH --> DATA[Permitted data]
 ```
+
+
+## Practical deep dive: enterprise integration aur identity
+
+### Integration patterns
+- **Synchronous API:** caller response ka wait karta hai; interactive queries ke liye useful.
+- **Asynchronous messaging:** sender message queue/topic par publish karta hai; consumers baad mein process kar sakte hain.
+- **Batch transfer:** data scheduled intervals par move hota hai.
+- **Event-driven integration:** business event par downstream systems react karte hain.
+- **iPaaS/ESB:** integration platform ya service bus multiple systems ke connections manage karne mein help kar sakta hai.
+
+Patterns ko latency, reliability, ordering, replay, cost aur operational complexity ke basis par choose karo.
+
+### Identity terms
+- **Authentication:** identity verify karna.
+- **Authorization:** allowed actions decide karna.
+- **SSO:** one identity session se multiple connected apps access karna, policy ke mutabiq.
+- **MFA:** authentication ke liye multiple factor categories use karna.
+- **SAML / OpenID Connect:** identity federation ke common protocols; exact use case ke hisaab se select karo.
+- **SCIM:** identity lifecycle/provisioning automate karne ke liye standard.
+- **RBAC:** roles ke basis par permissions.
+- **ABAC:** attributes/context ke basis par access decisions.
+
+SSO ka matlab har app mein unlimited permission nahi. App-level authorization aur timely access removal phir bhi zaroori hain.
+
+### Governance basics
+Data owner, system owner, retention rules, access review, audit logs, approval authority aur exception process define karo. Employee transfer/exit par access update/remove karne ka tested workflow rakho.
+
+### Practice lab
+HR system se employee joiner/mover/leaver events ke through email aur project tools access manage karne ka flow draw karo. Duplicate events, delayed messages, failed provisioning aur employee exit ke risks aur reconciliation checks likho.
+
+### Further learning
+- [OpenID Foundation](https://openid.net/)
+- [OASIS SAML Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security)
+- [RFC Editor](https://www.rfc-editor.org/)
