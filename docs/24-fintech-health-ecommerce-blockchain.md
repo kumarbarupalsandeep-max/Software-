@@ -80,3 +80,15 @@ Ek demo e-commerce checkout ka threat/risk review banao. Double-submit, payment 
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: review fintech, healthcare and payments content against current official regulatory/standards sources for clearly stated jurisdictions.
+
+
+## Worked e-commerce checkout state model
+
+A simplified order lifecycle could include:
+- **Created:** order intent exists; stock/payment not necessarily confirmed.
+- **Payment pending:** provider outcome is being confirmed.
+- **Paid/confirmed:** trusted provider result and order rules confirm payment.
+- **Fulfilment pending/in progress:** order is handed to fulfilment.
+- **Cancelled/refund pending/refunded:** state depends on whether payment was captured and provider's refund result.
+
+Do not mark an order “paid” solely because the browser returned to a success URL. Verify server-side provider status and reconcile uncertain outcomes. Define legal state transitions and idempotency so retries do not create duplicate orders or refunds.
