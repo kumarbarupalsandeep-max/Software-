@@ -160,3 +160,13 @@ MIT --> LEARN
 ```
 
 The diagram is a generic teaching flow, not a prescription for every organization. Required approvals, security checks and rollout strategy depend on the system's risk.
+
+
+## Further learning — official documentation
+- [MDN — Using Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
+- [MDN — HTTP Caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching)
+- [NIST — Secure Software Development Framework](https://csrc.nist.gov/projects/ssdf)
+- [GitHub Skills](https://skills.github.com/)
+- [Google Cloud — Load Balancing documentation](https://docs.cloud.google.com/load-balancing/docs/)
+
+Read version-specific documentation before applying commands or configuration in a real environment.
