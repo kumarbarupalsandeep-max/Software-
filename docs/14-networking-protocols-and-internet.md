@@ -118,3 +118,16 @@ Apne khud ke browser se kisi public website ko open karke domain, HTTPS certific
 - [MDN HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 - [Cloudflare Learning Center](https://www.cloudflare.com/learning/)
 - [RFC Editor](https://www.rfc-editor.org/)
+
+
+## Quick answer guide
+1. DNS resolves names to records such as IP addresses; it does not itself serve the website content.
+2. TCP provides a reliable ordered byte stream; UDP offers datagrams without TCP's delivery/ordering guarantees.
+3. HTTPS uses HTTP over a secure transport setup involving TLS.
+4. A DNS failure and an application-server failure can look similar to users, so use scoped diagnostics and evidence rather than assuming the cause.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: verify protocol explanations against current RFC/MDN documentation and add a safe troubleshooting walkthrough.
