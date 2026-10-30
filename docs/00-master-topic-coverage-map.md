@@ -98,32 +98,33 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 | Chapter | Current milestone | Remaining quality work |
 |---|---|---|
 | 01 — Fundamentals | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
-| 02 — Business models | Beginner + practical expansion | Deep review and source recheck |
-| 03 — SDLC | Beginner + practical expansion | Deep review and source recheck |
-| 04 — Programming/web | Beginner + practical expansion | Deep review and source recheck |
-| 05 — Databases/APIs | Beginner + practical expansion | Deep review and source recheck |
-| 06 — Cloud/infrastructure | Beginner + practical expansion | Deep review and source recheck |
-| 07 — DevOps/reliability | Beginner + practical expansion | Deep review and source recheck |
-| 08 — System design | Beginner + practical expansion | Deep review and source recheck |
-| 09 — Security/privacy | Beginner + practical expansion | Deep review and source recheck |
-| 10 — Testing/quality | Beginner + practical expansion | Deep review and source recheck |
-| 11 — IT operations | Beginner + practical expansion | Deep review and source recheck |
-| 12 — Enterprise applications | Beginner + practical expansion | Deep review and source recheck |
-| 13 — Teams/careers | Beginner + practical expansion | Deep review and source recheck |
-| 14 — Networking | Beginner + practical expansion | Deep review and source recheck |
-| 15 — Mobile/PWA | Beginner + practical expansion | Deep review and source recheck |
-| 16 — Data/AI/ML | Beginner + practical expansion | Deep review and source recheck |
-| 17 — Product/UX/project management | Beginner + practical expansion | Deep review and source recheck |
-| 18 — Business/finance/legal | Beginner + practical expansion | Deep review and source recheck |
-| 19 — Integration/identity/governance | Beginner + practical expansion | Deep review and source recheck |
-| 20 — Quality attributes/accessibility | Beginner + practical expansion | Deep review and source recheck |
-| 21 — Career/labs/glossary | Beginner + practical expansion | Deep review and source recheck |
-| 22 — Research methodology | Beginner + practical expansion | Deep review and source recheck |
-| 23 — Specialist domains | Beginner + practical expansion | Deep review and source recheck |
-| 24 — Industry-specific systems | Beginner + practical expansion | Deep review and source recheck |
-| 25 — Open source/supply chain | Beginner + practical expansion | Deep review and source recheck |
+| 02 — Business models | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 03 — SDLC | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 04 — Programming/web | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 05 — Databases/APIs | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 06 — Cloud/infrastructure | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 07 — DevOps/reliability | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 08 — System design | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 09 — Security/privacy | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 10 — Testing/quality | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 11 — IT operations | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 12 — Enterprise applications | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 13 — Teams/careers | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 14 — Networking | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 15 — Mobile/PWA | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 16 — Data/AI/ML | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 17 — Product/UX/project management | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 18 — Business/finance/legal | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 19 — Integration/identity/governance | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 20 — Quality attributes/accessibility | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 21 — Career/labs/glossary | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 22 — Research methodology | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 23 — Specialist domains | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 24 — Industry-specific systems | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
+| 25 — Open source/supply chain | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
 | 26 — Visual case studies | Beginner + practical expansion | Deep review, image terms and alt text review |
 | 27 — Learning standard/coverage roadmap | Standard and audit roadmap | Use it to review chapters and record evidence |
+| 28 — End-to-end case studies | Case studies and 100-point assessment rubric | Validate scenarios, then add runnable labs and evidence |
 | 28 — End-to-end case studies | Case studies and 100-point assessment rubric | Validate scenarios, then add runnable labs and evidence |
 | 29 — High-impact technical gaps | OS/concurrency, Git, CDN/cache/load balancing, IaC, APIs, performance, data and AI/RAG | Verify references and add reproducible labs with expected outputs |
 | 30 — Advanced web architecture | Multi-app, multi-tenant, micro-frontends, safe releases, CDN, load balancing, browser concurrency | Add provider-specific examples, runnable labs and primary-source checks |
