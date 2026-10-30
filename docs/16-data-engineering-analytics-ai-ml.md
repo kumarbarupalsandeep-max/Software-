@@ -128,3 +128,7 @@ Suppose the source exports one row per order. Before reporting revenue:
 7. Record pipeline run time, rejected rows and data freshness.
 
 Never silently discard bad rows without an agreed policy. A report should show freshness/quality warnings when source data is incomplete.
+
+
+## Lab review checklist
+A strong data pipeline exercise defines source schema, quality checks, invalid-row handling, reconciliation and freshness monitoring. An AI proposal states a baseline, measurable evaluation, data permissions, failure impact, human review needs and cost/latency limits. Model outputs should be treated as uncertain until evaluated.
