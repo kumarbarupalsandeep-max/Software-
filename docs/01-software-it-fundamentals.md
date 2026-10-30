@@ -255,3 +255,7 @@ External pages can change over time. Use them as starting points and verify curr
 - Verification status: practical beginner coverage; deep technical/source audit still pending.
 - Last content expansion: 2026-10-30.
 - Next review: verify the whole chapter against the industry map, strengthen worked examples and check every external reference.
+
+
+## Lab review checklist
+A strong beginner submission can explain software, hardware, firmware, product vs service and SDLC in their own words; gives a realistic example for each; labels the actors and data flow in a simple diagram; and identifies one failure, one security/privacy concern and one recovery step. Definitions copied without a personal example are not enough evidence of understanding.
