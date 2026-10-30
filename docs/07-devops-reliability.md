@@ -125,3 +125,7 @@ Assume a service defines availability as the share of eligible requests that suc
 - Define exclusions, measurement source, maintenance treatment and aggregation window explicitly.
 
 An error budget is a way to discuss reliability risk and release pace. It is not permission to ignore incidents or customer impact.
+
+
+## Lab review checklist
+A strong submission defines service indicators with measurement source/window, sets an SLO that stakeholders can explain, creates alerts for actionable user impact, and documents incident ownership and recovery verification. A release plan should include health checks and an explicit mitigation/abort condition. For request-based SLOs, calculate the error budget from eligible requests, not from minutes.
