@@ -125,3 +125,7 @@ Calculations:
 3. Raw event storage ≈ 100,000 × 2 KB × 365 ≈ **73 GB** in decimal units, before indexes, replicas, backups, compression and metadata.
 
 These are deliberately rough assumptions, not production sizing. Validate peak factor, payload size, request mix, database query cost, retention and actual measurements before choosing infrastructure. A small number of expensive requests can dominate resource use even when average RPS looks modest.
+
+
+## Lab review checklist
+A strong design starts with assumptions and user flows, estimates average and peak load separately, labels data stores and request paths, and identifies bottlenecks/failure modes. Every major component should have a reason to exist. Include at least one simpler alternative and explain its trade-offs. Do not present rough calculations as production sizing without measurements.
