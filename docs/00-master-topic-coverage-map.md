@@ -93,8 +93,39 @@ These are broad specialist branches and should be expanded when the learner's ta
 
 ## Current deep-audit progress
 
-- [x] **Chapter 01 — Software & IT Fundamentals:** beginner explanation, everyday and business examples, lifecycle and application diagrams, glossary, practice lab, knowledge check, common mistakes, and learning references added. Status: **Practically covered at beginner level; deep review still pending**.
-- [ ] Chapters 02–27: continue the same chapter-by-chapter audit and expansion. A topic being listed above does not mean it has passed the practical/deep review standard.
+The following chapters now include an expanded practical-learning section with real-world context, trade-offs, practice work and further-learning references. **This is an expansion milestone, not a claim of 100% expert-level or independently verified completion.** Remaining work includes chapter-by-chapter accuracy review, checking all external references, strengthening labs/answer keys, reviewing image permissions/accessibility and closing topic gaps.
+
+| Chapter | Current milestone | Remaining quality work |
+|---|---|---|
+| 01 — Fundamentals | Beginner + practical expansion | Deep review and source recheck |
+| 02 — Business models | Beginner + practical expansion | Deep review and source recheck |
+| 03 — SDLC | Beginner + practical expansion | Deep review and source recheck |
+| 04 — Programming/web | Beginner + practical expansion | Deep review and source recheck |
+| 05 — Databases/APIs | Beginner + practical expansion | Deep review and source recheck |
+| 06 — Cloud/infrastructure | Beginner + practical expansion | Deep review and source recheck |
+| 07 — DevOps/reliability | Beginner + practical expansion | Deep review and source recheck |
+| 08 — System design | Beginner + practical expansion | Deep review and source recheck |
+| 09 — Security/privacy | Beginner + practical expansion | Deep review and source recheck |
+| 10 — Testing/quality | Beginner + practical expansion | Deep review and source recheck |
+| 11 — IT operations | Beginner + practical expansion | Deep review and source recheck |
+| 12 — Enterprise applications | Beginner + practical expansion | Deep review and source recheck |
+| 13 — Teams/careers | Beginner + practical expansion | Deep review and source recheck |
+| 14 — Networking | Beginner + practical expansion | Deep review and source recheck |
+| 15 — Mobile/PWA | Beginner + practical expansion | Deep review and source recheck |
+| 16 — Data/AI/ML | Beginner + practical expansion | Deep review and source recheck |
+| 17 — Product/UX/project management | Beginner + practical expansion | Deep review and source recheck |
+| 18 — Business/finance/legal | Beginner + practical expansion | Deep review and source recheck |
+| 19 — Integration/identity/governance | Beginner + practical expansion | Deep review and source recheck |
+| 20 — Quality attributes/accessibility | Beginner + practical expansion | Deep review and source recheck |
+| 21 — Career/labs/glossary | Beginner + practical expansion | Deep review and source recheck |
+| 22 — Research methodology | Beginner + practical expansion | Deep review and source recheck |
+| 23 — Specialist domains | Beginner + practical expansion | Deep review and source recheck |
+| 24 — Industry-specific systems | Beginner + practical expansion | Deep review and source recheck |
+| 25 — Open source/supply chain | Beginner + practical expansion | Deep review and source recheck |
+| 26 — Visual case studies | Beginner + practical expansion | Deep review, image terms and alt text review |
+| 27 — Learning standard/coverage roadmap | Standard and audit roadmap | Use it to review chapters and record evidence |
+
+**Next audit loop:** review one chapter at a time against the chapter-27 standard; verify technical claims and primary references; add missing explanations, examples, diagrams, practical tasks and answer keys; then update this table only when evidence supports the new status.
 
 ## Suggested completion labels
 - **Not started:** meaningful explanation nahi hai.
