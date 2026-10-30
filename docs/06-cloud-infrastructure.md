@@ -41,3 +41,58 @@ LB --> A2[App instance B]
 A1 --> DB[(Managed database)]
 A2 --> DB
 ```
+
+
+## Practical deep dive: cloud infrastructure kaise choose karein?
+
+### Cloud ke main building blocks
+- **Compute:** code chalane ki capacity—virtual machines, containers, serverless functions.
+- **Storage:** files, backups, object storage, block storage.
+- **Database:** structured ya unstructured application data.
+- **Networking:** private networks, routing, load balancers, DNS aur connectivity.
+- **Identity and access:** kaun resource access kar sakta hai.
+- **Observability:** logs, metrics aur traces.
+- **Cost controls:** budgets, tags, usage reports aur alerts.
+
+### Deployment options
+| Option | Simple meaning | Useful when | Trade-off |
+|---|---|---|---|
+| Virtual machine | Rented virtual computer | OS-level control chahiye | OS patching aur capacity manage karni hoti hai |
+| Container | App aur dependencies ka packaged unit | Repeatable deployments chahiye | Container platform aur image security manage karni hoti hai |
+| Managed platform | Provider runtime/operations ka hissa manage karta hai | Team infra work kam karna chahe | Platform constraints aur vendor dependency ho sakti hai |
+| Serverless function | Event/request par code run hota hai | Event-driven, variable workloads | Runtime limits, cold starts aur monitoring consider karo |
+
+Serverless ka matlab servers exist nahi karte nahi; infrastructure ka kaafi management provider karta hai.
+
+### Shared responsibility
+Provider physical data centre aur managed service ke kuch controls sambhal sakta hai. Customer ki responsibility mein identity permissions, data classification, application configuration aur service ke mutabiq patching aa sakti hai. Exact boundary service model aur contract se verify karo.
+
+### Mini case: small business website
+1. Static content ko CDN/object storage se serve karne ka option evaluate karo.
+2. Dynamic orders ke liye backend aur managed database consider karo.
+3. Secrets ko environment/secret manager mein rakho.
+4. Least privilege access, HTTPS, backups aur monitoring configure karo.
+5. Expected traffic aur recovery needs ke basis par capacity aur budget set karo.
+6. Deployment se pehle restore test aur rollback plan verify karo.
+
+### Cost-control checklist
+- Unused resources identify karo.
+- Storage growth aur data transfer costs track karo.
+- Non-production resources ko schedule/stop karne ka safe plan banao.
+- Budgets aur alerts set karo.
+- Logs/metrics retention ko business need ke hisaab se tune karo.
+- Sirf lowest price nahi—availability, support, security aur migration cost bhi compare karo.
+
+### Practice lab
+Ek demo app ke liye architecture diagram banao. Har component ke liye purpose, data sensitivity, access permissions, backup/restore approach, monthly cost driver aur failure impact likho.
+
+### Knowledge check
+1. Cloud use karne par security ki saari responsibility provider ki ho jati hai? **Nahi.**
+2. VM aur managed platform ka key trade-off?
+3. Backup create karna aur restore test karna dono kyun zaroori hain?
+4. Cloud cost sirf compute bill hota hai? **Nahi**—storage, network, managed services aur support bhi cost ho sakte hain.
+
+### Further learning
+- [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
+- [Microsoft Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)
+- [Google Cloud Architecture Framework](https://cloud.google.com/architecture/framework)
