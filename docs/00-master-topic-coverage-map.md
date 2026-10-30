@@ -93,11 +93,11 @@ These are broad specialist branches and should be expanded when the learner's ta
 
 ## Current deep-audit progress
 
-The following chapters now include an expanded practical-learning section with real-world context, trade-offs, practice work and further-learning references. **This is an expansion milestone, not a claim of 100% expert-level or independently verified completion.** Remaining work includes chapter-by-chapter accuracy review, checking all external references, strengthening labs/answer keys, reviewing image permissions/accessibility and closing topic gaps.
+Chapters 01–26 now have practical-learning sections and quick answer guides, with review status recorded in the chapters. **This is an expansion milestone, not a claim of 100% expert-level or independently verified completion.** Remaining work includes chapter-by-chapter technical accuracy review, checking external references, adding executable/fully worked labs where needed, reviewing image permissions/accessibility and closing topic gaps.
 
 | Chapter | Current milestone | Remaining quality work |
 |---|---|---|
-| 01 — Fundamentals | Beginner + practical expansion | Deep review and source recheck |
+| 01 — Fundamentals | Beginner + practical expansion + quick answer guide | Deep review and source recheck |
 | 02 — Business models | Beginner + practical expansion | Deep review and source recheck |
 | 03 — SDLC | Beginner + practical expansion | Deep review and source recheck |
 | 04 — Programming/web | Beginner + practical expansion | Deep review and source recheck |
