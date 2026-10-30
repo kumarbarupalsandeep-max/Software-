@@ -97,3 +97,7 @@ External image ko educational use mein embed karne se pehle source, license/term
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: check each image URL, its source/terms, meaningful alt text, and whether local copies or links are appropriate.
+
+
+## Lab review checklist
+A strong visual case study identifies the source and version/date, explains components and arrows, calls out omitted details and failure cases, and includes accessible alt text. Verify image usage terms before redistribution; a publicly accessible image is not automatically free to copy.
