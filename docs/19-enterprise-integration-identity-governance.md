@@ -91,3 +91,16 @@ HR system se employee joiner/mover/leaver events ke through email aur project to
 - [OpenID Foundation](https://openid.net/)
 - [OASIS SAML Technical Committee](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security)
 - [RFC Editor](https://www.rfc-editor.org/)
+
+
+## Quick answer guide
+1. Synchronous APIs wait for a response; asynchronous messaging lets work be processed later.
+2. SSO simplifies sign-in but does not automatically grant broad authorization in each app.
+3. RBAC uses roles; ABAC can use attributes and context in access decisions.
+4. Joiner/mover/leaver workflows must handle delayed or duplicate events and verify that departed users lose access promptly.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: verify identity protocol descriptions against current official specifications and add an end-to-end provisioning example.
