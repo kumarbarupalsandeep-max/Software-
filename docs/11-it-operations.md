@@ -83,3 +83,16 @@ Runbook tested steps ka document hai jo routine task ya incident handle karne me
 ### Further learning
 - [Atlassian ITSM guide](https://www.atlassian.com/itsm)
 - [Google SRE Book](https://sre.google/sre-book/table-of-contents/)
+
+
+## Quick answer guide
+1. An incident is an unplanned service interruption/degradation; a problem process investigates underlying causes.
+2. A good ticket records impact, time, symptoms, reproduction steps and safe evidence without secrets.
+3. A runbook should include prerequisites, steps, verification, failure handling and escalation.
+4. Close an incident only after recovery is verified and the affected users/service status is communicated.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add a sample ticket and incident timeline, then validate terminology against current ITSM references.
