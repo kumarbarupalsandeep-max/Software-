@@ -161,3 +161,31 @@ Use these labels in the master map as chapters are reviewed:
 6. Update the master map with honest completion labels and unresolved gaps.
 
 **Learning principle:** Pehle simple meaning samjho, phir example dekho, phir diagram banao, phir khud chhota experiment karo.
+
+## Strict 100% completion gate — do not mark early
+
+"100% complete" ka matlab is repository ke defined scope mein har listed domain ka review evidence ke saath ho chuka hai. IT industry continuously changes, so no guide can honestly promise every possible niche topic forever. Scope aur review date visible rehne chahiye.
+
+A chapter may be marked **Deeply reviewed** only when:
+1. Every section has a plain-language explanation and at least one concrete example.
+2. Important subtopics in the master map are linked to actual explanations—not only mentioned in a checklist.
+3. Relevant architecture/workflow diagrams are readable and labelled as simplified where appropriate.
+4. At least one hands-on lab has steps, expected outcome and troubleshooting hints.
+5. Knowledge-check questions have answers or a clear evaluation rubric.
+6. Important trade-offs, failure modes, security/privacy/accessibility/cost concerns are addressed where relevant.
+7. Technical claims and official primary-source links have been checked; date/version or review date is recorded.
+8. External images have working sources, appropriate usage/attribution checks and meaningful alt text.
+9. A gap review has been done and unresolved items are explicitly listed.
+10. The master coverage map is updated to match the evidence.
+
+### Repository-wide final audit
+Before saying the repository is complete:
+- Review every chapter from 01 to 27, not just the README.
+- Check every internal Markdown link and important external URL.
+- Check all Mermaid blocks render and diagrams match the explanation.
+- Check repeated, contradictory, outdated or too-advanced explanations.
+- Confirm every topic in the master map points to meaningful chapter content.
+- Record remaining exclusions, jurisdiction-specific limits and last-reviewed date.
+- Do not convert an unchecked item to complete merely because a heading or short paragraph exists.
+
+**Current rule:** chapters with newly added practical sections are at the *expansion milestone* only. They must pass the above review before receiving a Deeply reviewed label.
