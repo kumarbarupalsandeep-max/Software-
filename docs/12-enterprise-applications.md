@@ -103,3 +103,7 @@ A small company compares two HR systems. Scores below are placeholders to demons
 | Accessibility/support | 10% | 4 | 3 |
 
 Calculate weighted scores only after agreeing what each score means. A weak score on a mandatory security or legal requirement may disqualify an option regardless of the total. Ask vendors for evidence, not just yes/no marketing answers.
+
+
+## Lab review checklist
+A strong vendor comparison uses agreed criteria and weights, includes security/data export/integration and exit considerations, and labels any scores that are assumptions. A migration plan should include data mapping, validation, reconciliation, access controls, user acceptance and rollback/recovery. Do not select a vendor based only on feature count.
