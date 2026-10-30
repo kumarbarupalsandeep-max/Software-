@@ -124,6 +124,7 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 | 25 — Open source/supply chain | Beginner + practical expansion | Deep review and source recheck |
 | 26 — Visual case studies | Beginner + practical expansion | Deep review, image terms and alt text review |
 | 27 — Learning standard/coverage roadmap | Standard and audit roadmap | Use it to review chapters and record evidence |
+| 28 — End-to-end case studies | Case studies and 100-point assessment rubric | Validate scenarios, then add runnable labs and evidence |
 
 **Next audit loop:** review one chapter at a time against the chapter-27 standard; verify technical claims and primary references; add missing explanations, examples, diagrams, practical tasks and answer keys; then update this table only when evidence supports the new status.
 
