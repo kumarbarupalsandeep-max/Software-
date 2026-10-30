@@ -92,7 +92,7 @@ Ek employee portal ke liye asset list, 5 threats, risk level, preventive control
 
 ### Further learning
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [OWASP Top 10](https://owasp.org/projects/top-ten/)
 - [CISA Secure by Design](https://www.cisa.gov/securebydesign)
 
 
