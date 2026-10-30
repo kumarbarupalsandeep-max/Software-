@@ -94,3 +94,16 @@ Ek small notes ya product-catalog PWA ka plan banao. Decide karo kya offline ava
 - [MDN Progressive Web Apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 - [web.dev Learn PWA](https://web.dev/learn/pwa/)
 - [MDN Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+
+
+## Quick answer guide
+1. Responsive websites adapt layouts; PWAs may add install/offline capabilities; native apps use platform-specific capabilities; cross-platform tools share code across targets.
+2. A service worker can intercept requests and support caching, but behaviour varies by browser/platform.
+3. Offline display does not prove that a payment or account change completed; server confirmation and sync/conflict handling matter.
+4. Private cached data needs special care on logout and shared devices.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: check current browser support/limitations and test the linked service-worker lifecycle diagram.
