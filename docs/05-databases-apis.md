@@ -171,3 +171,7 @@ For `GET /customers/{customerId}/orders`, document:
 - How client retries and request IDs are handled.
 
 In real application code, pass user values through prepared/parameterized statements using your database library. Never build SQL by concatenating raw user input.
+
+
+## Lab review checklist
+The SQL lab should create the two related tables, insert one customer/order and return the expected joined row. Invalid foreign-key and negative-total inserts should be rejected where the database enforces those constraints. The API exercise should define permissions, validation, pagination and error behaviour. Use a disposable database and parameterized queries in real application code.
