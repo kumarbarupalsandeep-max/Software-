@@ -66,3 +66,38 @@ Q --> T[Transform]
 T --> W[(Warehouse or lakehouse)]
 W --> A[Analytics or model]
 ```
+
+
+## Practical deep dive: data se decision aur AI tak
+
+### Data pipeline
+Common flow: source systems → extract/collect → validate/clean → transform → store → analyze/report → monitor data quality. Har step mein lineage, access controls, failure handling aur ownership define karna useful hai.
+
+### Data quality dimensions
+- **Accuracy:** data reality ko sahi represent karta hai?
+- **Completeness:** required fields/records missing to nahi?
+- **Consistency:** systems ke beech values conflict to nahi karti?
+- **Timeliness:** data decision ke liye fresh hai?
+- **Uniqueness:** duplicate records to nahi?
+- **Validity:** format/business rules satisfy karta hai?
+
+### Analytics vs AI/ML
+- **Descriptive analytics:** kya hua?
+- **Diagnostic analytics:** kyun hua?
+- **Predictive analytics:** likely kya hoga?
+- **Prescriptive analytics:** possible next action kya ho sakta hai?
+- **Machine learning:** examples/data se patterns learn karne wale models.
+- **Generative AI:** text, image, code ya doosra content generate karne wale models.
+
+Model output guaranteed fact nahi. Data leakage, bias, drift, hallucination, privacy aur evaluation risks assess karo.
+
+### AI project lifecycle
+Problem and baseline → data permission/quality review → model/approach selection → evaluation → safety/privacy review → limited rollout → monitoring → feedback and rollback plan. Agar simple rules ya search problem solve karte hain, AI use karna zaroori nahi.
+
+### Practice lab
+Sample sales CSV ke liye 5 data-quality checks define karo, missing/duplicate records ka treatment decide karo aur 3 metrics ke dashboard ka sketch banao. AI feature propose karte waqt success metric, failure impact, human review aur sensitive-data policy likho.
+
+### Further learning
+- [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+- [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+- [W3C Data on the Web Best Practices](https://www.w3.org/TR/dwbp/)
