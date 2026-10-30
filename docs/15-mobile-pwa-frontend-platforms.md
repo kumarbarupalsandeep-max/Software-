@@ -120,3 +120,7 @@ Ek small notes ya product-catalog PWA ka plan banao. Decide karo kya offline ava
 7. Log out and inspect whether private data remains accessible in the shared browser profile.
 
 Expected learning: offline support is selective; caching policy, update lifecycle and private-data handling need explicit design. Browser support differs, so repeat on target platforms.
+
+
+## Lab review checklist
+A strong PWA lab states which assets/actions work offline, how updates replace stale caches, how network errors are shown, and what happens to private cached data after logout. Test online, offline, slow-network and new-version behaviour on target browsers/devices. Do not claim broad platform support without checking it.
