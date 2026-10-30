@@ -1,5 +1,9 @@
 # 15. Mobile Apps, PWA & Frontend Platforms
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 ## 1. Platform options
 - Native: Android ke liye Kotlin/Java, iOS ke liye Swift; platform APIs aur performance par strong control.
 - Cross-platform: Flutter, React Native jaise tools se shared code, lekin native integration/testing phir bhi chahiye.
