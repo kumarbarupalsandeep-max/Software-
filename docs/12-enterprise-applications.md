@@ -74,3 +74,16 @@ Ek small business ke liye CRM ya HRMS selection matrix banao: required features,
 ### Further learning
 - [NIST Privacy Framework](https://www.nist.gov/privacy-framework)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+
+
+## Quick answer guide
+1. ERP connects core business processes; CRM focuses on customer and sales relationships; HRMS supports employee lifecycle workflows.
+2. Buy can speed delivery but may constrain fit; build offers control but creates ongoing maintenance ownership; configure/extend sits between them.
+3. Data migration needs mapping, validation, reconciliation, access controls and a recovery plan.
+4. User acceptance testing checks whether real business workflows satisfy agreed needs before launch.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add a vendor-selection worked example and map enterprise systems/integration topics to the master checklist.
