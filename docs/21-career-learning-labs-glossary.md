@@ -96,3 +96,36 @@ B --> T[Test and debug]
 T --> D[Document trade-offs]
 D --> L
 ```
+
+
+## Practical deep dive: learning ko measurable progress mein badlo
+
+### Skill development loop
+Learn concept → explain it in your own words → build a small artifact → test failure cases → get feedback → document lessons → repeat with a harder problem. Sirf videos dekhna practical competence ka proof nahi.
+
+### Portfolio evidence
+Har project ke saath problem statement, setup steps, screenshots, architecture diagram, tests, known limitations, security/privacy notes aur future improvements include karo. Secrets aur real user data publish mat karo. External assets ke license/attribution terms verify karo.
+
+### Self-assessment levels
+- **Level 1 — Recognize:** term ka meaning pehchanta hoon.
+- **Level 2 — Explain:** apni language mein example de sakta hoon.
+- **Level 3 — Apply:** guided task complete kar sakta hoon.
+- **Level 4 — Diagnose:** failure identify aur fix kar sakta hoon.
+- **Level 5 — Evaluate:** alternatives, risks aur trade-offs compare kar sakta hoon.
+
+Ye personal learning rubric hai, industry certification nahi.
+
+### Weekly learning template
+1. Goal: is week kya demonstrate karna hai?
+2. Concepts: kaun se topics study karne hain?
+3. Artifact: code, diagram, report ya test plan kya produce hoga?
+4. Verification: output kaise test hoga?
+5. Reflection: kya unclear raha aur next step kya hai?
+
+### Practice lab
+Apni target role ke liye ek 4-week plan banao. Har week ka measurable deliverable, official learning resource, practice task aur review criteria define karo.
+
+### Further learning
+- [GitHub Skills](https://skills.github.com/)
+- [freeCodeCamp](https://www.freecodecamp.org/learn/)
+- [MDN Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn_web_development)
