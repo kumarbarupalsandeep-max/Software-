@@ -113,3 +113,14 @@ Ek technology choice par 3 official/primary sources compare karo. Publication/up
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: verify every research-method reference and add a worked source-comparison example.
+
+
+## Reference check note — 2026-10-30
+A spot-check of selected official references confirmed these pages are useful starting points:
+- MDN's PWA documentation provides conceptual guides, tutorials and API references: https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
+- NIST's SSDF page describes secure development practices and links to SP 800-218: https://csrc.nist.gov/projects/ssdf
+- OWASP's official Top 10 project page lists the 2025 release as current: https://owasp.org/projects/top-ten/
+- W3C's WCAG overview explains the WCAG 2.0, 2.1 and 2.2 standards: https://www.w3.org/WAI/standards-guidelines/wcag/
+- OpenID Foundation's specification index lists official OpenID specifications: https://openid.net/developers/specs/
+
+This was a spot-check, not a full automated validation of every external link in the repository. Re-check URLs, versions and relevance before using them in production or compliance work.
