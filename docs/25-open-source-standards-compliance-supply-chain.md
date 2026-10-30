@@ -1,5 +1,9 @@
 # 25. Standards, Compliance, Open Source & Software Supply-Chain Security
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 ## 1. Standards vs frameworks vs laws
 A standard defines agreed technical or process specifications; a framework organizes controls/practices; a law creates legal obligations within its jurisdiction. Certification, audit and compliance evidence are different activities. Which applies depends on industry, customer contract, geography, company role and data type.
 
