@@ -82,3 +82,16 @@ Ek shopping cart ke 8 test cases likho: normal add/remove, quantity boundary, em
 - [ISTQB](https://www.istqb.org/)
 - [Playwright Documentation](https://playwright.dev/docs/intro)
 - [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+
+## Quick answer guide
+1. Unit tests check small units; integration tests check boundaries between components; end-to-end tests check complete user workflows.
+2. Severity describes impact; priority describes urgency/order of fixing.
+3. Flaky tests reduce confidence and waste time; investigate root causes instead of ignoring repeated failures.
+4. Automated accessibility tools find some issues but do not replace keyboard, screen-reader and human evaluation.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add a traceable sample test plan and validate tooling links/commands.
