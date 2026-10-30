@@ -41,3 +41,45 @@ M --> C[Communicate]
 C --> P[Post-incident review]
 P --> A[Action items]
 ```
+
+
+## Practical deep dive: IT operations aur support
+
+### Common ITSM work types
+- **Incident:** service unexpected tareeke se break/degrade hui; service restore karna focus hai.
+- **Problem:** incidents ke underlying cause ko identify/reduce karna.
+- **Change:** system mein controlled modification, risk assessment aur approval process ke saath.
+- **Service request:** standard request, jaise approved software access.
+- **Asset management:** devices/licenses/resources ka lifecycle record.
+- **Knowledge management:** reusable troubleshooting instructions aur known solutions.
+
+Exact processes organization ke scale aur risk ke mutabiq lightweight ya formal ho sakte hain.
+
+### Incident triage
+1. User impact, urgency aur scope identify karo.
+2. Reproducible symptoms aur recent changes note karo.
+3. Safe initial checks karo; evidence delete/overwrite na karo.
+4. Right owner/team ko escalate karo.
+5. Status updates aur next update time communicate karo.
+6. Recovery ke baad user se verify karo aur notes update karo.
+
+### Good support ticket
+- Clear title and impact
+- Affected service/device and time
+- Exact error text, safe screenshots/logs
+- Steps to reproduce
+- What changed recently
+- Actions already tried
+- Sensitive data/credentials redacted
+
+Password, authentication token ya unnecessary personal information ticket mein paste mat karo.
+
+### Runbook kya hota hai?
+Runbook tested steps ka document hai jo routine task ya incident handle karne mein help karta hai. Ismein purpose, prerequisites, permissions, steps, verification, failure/rollback path aur escalation contact hona chahiye. Runbook ko real incident se pehle safe environment mein test karna chahiye.
+
+### Practice lab
+“Employee cannot access company email” ke liye ticket template aur runbook banao. Identity verification, service status, device/network checks, escalation aur closure confirmation include karo—security controls bypass na karo.
+
+### Further learning
+- [Atlassian ITSM guide](https://www.atlassian.com/itsm)
+- [Google SRE Book](https://sre.google/sre-book/table-of-contents/)
