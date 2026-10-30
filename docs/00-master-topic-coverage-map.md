@@ -155,7 +155,7 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 - [x] Markdown code-fence counts checked across Chapters 01–31: no unbalanced code fences found.
 - [x] Selected official references spot-checked (MDN PWA/Web Workers/HTTP caching, NIST SSDF, OWASP Top 10, W3C WCAG, OpenID Foundation, cloud load-balancing/safe-deployment docs).
 - [ ] Full external-link validation for every URL.
-- [ ] Full claim-by-claim technical accuracy review for Chapters 01–30.
+- [ ] Full claim-by-claim technical accuracy review for Chapters 01–31.
 - [ ] Mermaid rendering/diagram meaning verified in a renderer.
 - [ ] All labs independently executed and expected outputs verified.
 - [ ] All external image URLs, usage terms and alt text audited.
