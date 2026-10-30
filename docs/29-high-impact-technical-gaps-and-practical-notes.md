@@ -143,3 +143,20 @@ Rough estimates planning tools hain, production sizing ka substitute nahi. Real 
 ## Practice outcomes to submit
 For each mini-practice above, save one artifact in your own study notes: a browser performance observation, a Git branch/PR rehearsal, a cache policy table, an IaC change checklist, an API/webhook contract, a data pipeline diagram or an AI/RAG evaluation plan. Record the test environment and what remains unverified.
 
+
+
+## Visual: a typical delivery and operations loop
+
+```mermaid
+flowchart LR
+DEV[Code change] --> CI[Build and automated checks]
+CI --> ART[Versioned artifact]
+ART --> STAGE[Staging verification]
+STAGE --> REL[Controlled rollout]
+REL --> MON[Metrics, logs and traces]
+MON -->|Healthy| LEARN[Feedback and next change]
+MON -->|Unhealthy| MIT[Mitigate or rollback]
+MIT --> LEARN
+```
+
+The diagram is a generic teaching flow, not a prescription for every organization. Required approvals, security checks and rollout strategy depend on the system's risk.
