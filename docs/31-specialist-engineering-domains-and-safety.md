@@ -99,10 +99,16 @@ Before deepening a specialist branch, identify:
 - [NASA Systems Engineering Handbook](https://www.nasa.gov/reference/systems-engineering-handbook/)
 - [NIST Operational Technology Security](https://csrc.nist.gov/pubs/sp/800/82/r3/final)
 - [Green Software Foundation](https://greensoftware.foundation/)
-- [NIST Computer Forensics Tool Testing Program](https://www.nist.gov/itl/ssd/software-quality-group/computer-forensics-tool-testing-program-cftt)
+- [NIST Computer Forensics Tool Testing Program](https://www.nist.gov/programs-projects/computer-forensics-tool-testing-cftt)
 
 ## Review status
 - Content milestone: specialist-domain introductions with risk-aware practice prompts.
 - Verification status: introductory; individual standards and domain requirements require focused review.
 - Last content expansion: 2026-10-30.
 - Next review: add domain-specific worked cases, verify current standards and seek specialist review for safety-critical topics.
+
+
+### Standards freshness note — 2026-10-30
+NIST lists SP 800-82 Rev. 3 as the final OT security guide and a Rev. 4 initial public draft dated September 21, 2026, with comments due November 30, 2026. When studying OT security, distinguish a final publication from a draft and check the current NIST publication page before relying on a version.
+- [NIST SP 800-82 Rev. 3 — final](https://csrc.nist.gov/pubs/sp/800/82/r3/final)
+- [NIST SP 800-82 Rev. 4 — initial public draft](https://csrc.nist.gov/pubs/sp/800/82/r4/ipd)
