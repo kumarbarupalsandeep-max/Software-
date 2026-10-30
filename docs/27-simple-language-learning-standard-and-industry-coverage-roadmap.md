@@ -189,3 +189,10 @@ Before saying the repository is complete:
 - Do not convert an unchecked item to complete merely because a heading or short paragraph exists.
 
 **Current rule:** chapters with newly added practical sections are at the *expansion milestone* only. They must pass the above review before receiving a Deeply reviewed label.
+
+
+## Review status
+- Content milestone: defines the learning template, industry roadmap and evidence-based completion gate.
+- Verification status: process standard is present; the full repository has not yet passed the gate.
+- Last content expansion: 2026-10-30.
+- Next review: use the gate to assess chapters 01–30 individually, record evidence and unresolved gaps, and update statuses only after verification.
