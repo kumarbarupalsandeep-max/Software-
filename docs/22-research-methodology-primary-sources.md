@@ -1,5 +1,9 @@
 # Research Methodology & Primary Source Index
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 ## How to research a technical topic deeply
 For each topic, answer: (1) definition and purpose, (2) problem it solves, (3) how it works, (4) architecture/data flow, (5) alternatives, (6) strengths and limitations, (7) security/privacy risks, (8) reliability and scaling, (9) cost and operations, (10) practical example, (11) failure modes, (12) interview/revision questions.
 
