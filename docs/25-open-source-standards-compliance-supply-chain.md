@@ -96,3 +96,19 @@ Ek small project ke dependencies list karo. Har dependency ke liye purpose, vers
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: verify current GitHub/NIST/license resources and add a sample dependency inventory.
+
+
+## Worked dependency review record
+
+For each important dependency, record:
+- Name and exact version
+- Why the project needs it
+- Direct or transitive dependency
+- License and applicable obligations
+- Maintenance/release signals
+- Known vulnerability/advisory status and checked date
+- Source registry and lockfile evidence
+- Update owner and planned review date
+- Alternative or mitigation if the project becomes unmaintained
+
+A “no known vulnerability” result means none was found in the checked source at that time; it does not prove the dependency is safe. Keep the check date and tool/database scope visible.
