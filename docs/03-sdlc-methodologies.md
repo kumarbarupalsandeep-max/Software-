@@ -155,3 +155,7 @@ Ek login ya leave-request feature ke liye 5 functional requirements, 3 non-funct
 8. **Review:** compare actual usage/support tickets with the intended outcome.
 
 **Done means evidence:** acceptance criteria pass, permissions are tested, known limitations are documented, monitoring exists and support knows how to troubleshoot.
+
+
+## Lab review checklist
+A strong submission includes measurable requirements, testable acceptance criteria, a named owner for key risks, happy-path and failure tests, and a release/rollback plan. Requirements should avoid vague terms like “fast” unless a measurement condition is defined. If scope changes, the submission should explain impact on timeline, cost, risk and quality.
