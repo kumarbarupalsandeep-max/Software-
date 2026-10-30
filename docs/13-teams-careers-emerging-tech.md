@@ -94,3 +94,16 @@ Apne target role ke liye:
 - [O*NET Online](https://www.onetonline.org/)
 - [GitHub Skills](https://skills.github.com/)
 - [MDN Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn_web_development)
+
+
+## Quick answer guide
+1. Roles overlap; use job responsibilities and demonstrated skills rather than titles alone.
+2. A credible portfolio explains the problem, setup, architecture, tests, limitations and safe handling of data/secrets.
+3. A status update should state completed work, next action, blocker and any decision needed.
+4. Emerging technology should be evaluated against user need, cost, risk, privacy, maintainability and simpler alternatives.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add role-specific learning roadmaps with measurable projects and verify current official learning resources.
