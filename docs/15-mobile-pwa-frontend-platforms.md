@@ -58,3 +58,39 @@ N --> S[Server]
 ![MDN service worker lifecycle diagram](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers/sw-lifecycle.svg)
 
 Source: [MDN — Using Service Workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers). Image registration, installation, activation aur page control ke phases samajhne mein help karti hai.
+
+
+## Practical deep dive: responsive website, PWA aur native app
+
+### Options ka comparison
+- **Responsive website:** browser mein chalti hai; multiple screen sizes ke liye layout adapt hota hai.
+- **Progressive Web App (PWA):** web app mein installability, service worker aur selected offline capabilities add ho sakti hain; platform support differ karta hai.
+- **Native app:** platform-specific APIs aur distribution use kar sakti hai; development/maintenance multiple platforms par costly ho sakti hai.
+- **Cross-platform app:** shared codebase se multiple platforms target kar sakti hai; native integrations aur performance trade-offs evaluate karne hote hain.
+
+### Service worker aur cache
+Service worker network requests ko handle karne aur selected assets/data cache karne mein help kar sakta hai. Caching strategy app ke content aur risk ke mutabiq choose karo:
+- Static assets: cache-friendly ho sakte hain.
+- Frequently changing data: freshness rules define karo.
+- Private account data: shared-device privacy aur logout behaviour carefully design karo.
+- New release: cache update aur old/new version compatibility test karo.
+
+Offline UI dikhana is baat ka proof nahi ki har transaction offline safe hai. Payment, inventory aur account actions ke liye server confirmation zaroori ho sakti hai.
+
+### Mobile quality checklist
+- Touch target size aur readable text
+- Keyboard/screen reader support
+- Slow network/loading/error states
+- Install prompt optional and respectful
+- Permissions sirf feature need hone par
+- Offline limitations clearly explained
+- App updates aur stale cache handling
+- Battery, memory aur data usage consider karo
+
+### Practice lab
+Ek small notes ya product-catalog PWA ka plan banao. Decide karo kya offline available hoga, data kab sync hoga, conflicts kaise handle honge aur logout par private cached data ka kya hoga. Browser devtools se online/offline aur slow network behaviour test karo.
+
+### Further learning
+- [MDN Progressive Web Apps](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+- [web.dev Learn PWA](https://web.dev/learn/pwa/)
+- [MDN Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
