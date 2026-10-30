@@ -116,3 +116,7 @@ More testable examples:
 - Backup restoration is demonstrated in a test environment within the agreed recovery-time objective, with restored data meeting the recovery-point objective.
 
 These are sample targets, not universal recommendations. Teams must validate targets against user needs, cost, risk and architecture.
+
+
+## Lab review checklist
+A strong quality requirement names a metric, threshold, workload/environment, measurement window and exception rules. An ADR compares alternatives and records consequences. Accessibility evidence should include keyboard/focus checks and relevant manual testing; automated results alone do not prove conformance.
