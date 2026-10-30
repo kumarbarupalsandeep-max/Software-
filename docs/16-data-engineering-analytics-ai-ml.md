@@ -114,3 +114,17 @@ Sample sales CSV ke liye 5 data-quality checks define karo, missing/duplicate re
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a worked data-quality example and check current NIST/Google AI guidance.
+
+
+## Worked data-quality example: daily sales report
+
+Suppose the source exports one row per order. Before reporting revenue:
+1. Check order IDs for duplicates.
+2. Validate required order date, currency and status fields.
+3. Define whether cancelled/refunded orders are included and how refunds are represented.
+4. Normalize time zones before assigning dates.
+5. Reconcile record counts and totals with the source system.
+6. Mark late-arriving records and rerun the affected reporting window.
+7. Record pipeline run time, rejected rows and data freshness.
+
+Never silently discard bad rows without an agreed policy. A report should show freshness/quality warnings when source data is incomplete.
