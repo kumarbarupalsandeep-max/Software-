@@ -118,3 +118,56 @@ A simple inventory app ka design banao:
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a worked SQL/API example and verify snippets against current official documentation.
+
+
+## Runnable SQL lab: customers and orders
+
+The following SQL uses broadly supported relational concepts; exact syntax and data types may differ by database engine. Run it only in a disposable learning database.
+
+```sql
+CREATE TABLE customers (
+  customer_id INTEGER PRIMARY KEY,
+  name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE orders (
+  order_id INTEGER PRIMARY KEY,
+  customer_id INTEGER NOT NULL,
+  status VARCHAR(20) NOT NULL,
+  total_cents INTEGER NOT NULL CHECK (total_cents >= 0),
+  FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+INSERT INTO customers (customer_id, name)
+VALUES (1, 'Asha');
+
+INSERT INTO orders (order_id, customer_id, status, total_cents)
+VALUES (1001, 1, 'pending', 2599);
+
+SELECT c.name, o.order_id, o.status, o.total_cents
+FROM customers AS c
+JOIN orders AS o ON o.customer_id = c.customer_id
+WHERE c.customer_id = 1;
+```
+
+### Expected result
+One row should be returned for Asha's order: order ID 1001, status pending and total 2599 cents. Storing money as integer minor units is one common strategy; currency and rounding requirements must be designed explicitly.
+
+### Experiments
+1. Try inserting an order with an unknown customer ID; the foreign-key constraint should reject it if foreign-key enforcement is enabled.
+2. Try a negative total; the check constraint should reject it.
+3. Add a second order and compare the query result.
+4. Think about whether an index on `orders(customer_id)` would help as the table grows. Confirm using the database's query plan rather than guessing.
+5. Add pagination and define stable sorting.
+
+### API contract exercise
+For `GET /customers/{customerId}/orders`, document:
+- Authentication and authorization requirement.
+- Path parameter validation.
+- Page size and sort order.
+- Successful response shape.
+- Empty result behaviour.
+- Not-found, forbidden, invalid input, rate-limit and server-error behaviour.
+- How client retries and request IDs are handled.
+
+In real application code, pass user values through prepared/parameterized statements using your database library. Never build SQL by concatenating raw user input.
