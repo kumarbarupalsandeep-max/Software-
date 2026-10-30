@@ -1,5 +1,9 @@
 # 06 — Cloud & Infrastructure
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 [← Learning index](../README.md)
 
 ## Cloud computing
