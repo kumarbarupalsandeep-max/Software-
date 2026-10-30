@@ -110,3 +110,7 @@ Runbook tested steps ka document hai jo routine task ya incident handle karne me
 **Follow-up:** Record contributing causes and assign preventive actions with owners/dates.
 
 Do not claim a root cause until evidence supports it. Redact credentials, session cookies and unnecessary personal data from logs/screenshots.
+
+
+## Lab review checklist
+A strong support ticket has a clear impact statement, time, affected service, safe evidence, reproduction steps and actions already attempted. A runbook includes prerequisites, ordered steps, expected observations, stop conditions, rollback/recovery and escalation. An incident report distinguishes confirmed facts from hypotheses and records follow-up owners.
