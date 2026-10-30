@@ -196,3 +196,7 @@ Is example ko ek folder mein `index.html` ke naam se save karke browser mein ope
 5. Test at narrow screen width and with keyboard-only navigation.
 
 **Safety note:** `textContent` is used to insert text safely. If rendering untrusted content, do not blindly use `innerHTML`.
+
+
+## Lab review checklist
+The product-search mini-lab should load without console errors, show all initial products, filter case-insensitively, display an empty state for no matches and keep result updates accessible. Check at a narrow viewport and with keyboard-only navigation. A real API extension should add loading/error states and must not expose credentials in client code.
