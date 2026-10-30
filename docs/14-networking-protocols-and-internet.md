@@ -131,3 +131,18 @@ Apne khud ke browser se kisi public website ko open karke domain, HTTPS certific
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: verify protocol explanations against current RFC/MDN documentation and add a safe troubleshooting walkthrough.
+
+
+## Safe troubleshooting exercise: “Website not opening”
+
+Use a website you own or are authorized to test.
+
+1. Record exact browser error and time.
+2. Check whether other trusted sites work.
+3. Verify the domain spelling and certificate/date warnings.
+4. Compare results from a permitted second network/device if available.
+5. Use standard local diagnostic tools only on your own device/network; record outputs and redact public/private IP details before sharing.
+6. Check the service status page or server logs if you own the site.
+7. Change one variable at a time and note whether it changes the result.
+
+**Interpretation caution:** DNS, routing, TLS, browser extensions, proxy rules and server errors can create overlapping symptoms. A single failed request does not identify the root cause.
