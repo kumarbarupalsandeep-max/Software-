@@ -92,3 +92,7 @@ A simplified order lifecycle could include:
 - **Cancelled/refund pending/refunded:** state depends on whether payment was captured and provider's refund result.
 
 Do not mark an order “paid” solely because the browser returned to a success URL. Verify server-side provider status and reconcile uncertain outcomes. Define legal state transitions and idempotency so retries do not create duplicate orders or refunds.
+
+
+## Lab review checklist
+A strong industry-specific design models the full lifecycle, including pending/failed/reversed states, auditability and reconciliation. Identify sensitive data, access boundaries, applicable standards/jurisdictions and failure consequences. Use synthetic data and test systems; never assume a browser success page proves a financial transaction settled.
