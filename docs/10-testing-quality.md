@@ -95,3 +95,19 @@ Ek shopping cart ke 8 test cases likho: normal add/remove, quantity boundary, em
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a traceable sample test plan and validate tooling links/commands.
+
+
+## Worked test design: password reset flow
+
+| Test | Setup/action | Expected result |
+|---|---|---|
+| Valid request | Registered email requests reset | Generic confirmation; no unnecessary account disclosure |
+| Unknown email | Unregistered email requests reset | Similar public response to reduce account enumeration |
+| Expired token | Use expired reset token | Reset rejected; user can request a new link |
+| Reused token | Use token twice | Second use rejected |
+| Weak new password | Submit password violating defined policy | Clear validation error |
+| Rate limit | Send repeated requests rapidly | Requests throttled according to policy |
+| Unauthorized session | Access reset-only endpoint without valid proof | Request rejected |
+| Audit/log review | Run reset test and inspect safe logs | No raw password or reset token recorded |
+
+Actual policy and responses must match the product's security requirements. Tests should use controlled accounts and never real users' passwords.
