@@ -119,3 +119,7 @@ Ek employee leave-request feature ke liye persona/context, problem statement, 5 
 8. Document what changed and what remains uncertain.
 
 Success is not just a prettier form; it is an evidence-backed improvement in task completion without introducing new barriers.
+
+
+## Lab review checklist
+A strong product exercise distinguishes evidence from assumptions, defines a measurable success metric and guardrails, and covers loading/error/empty/permission states. Priorities should include user impact, effort and risk, while required security, accessibility and compliance work remains visible.
