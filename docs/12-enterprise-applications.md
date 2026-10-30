@@ -87,3 +87,19 @@ Ek small business ke liye CRM ya HRMS selection matrix banao: required features,
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a vendor-selection worked example and map enterprise systems/integration topics to the master checklist.
+
+
+## Worked vendor comparison matrix
+
+A small company compares two HR systems. Scores below are placeholders to demonstrate the method, not real vendor ratings.
+
+| Criterion | Weight | Vendor A (example score / 5) | Vendor B (example score / 5) |
+|---|---:|---:|---:|
+| Required workflows | 25% | 4 | 3 |
+| Security/access controls | 20% | 4 | 4 |
+| Integration fit | 15% | 3 | 5 |
+| Data export/exit | 15% | 4 | 2 |
+| Total cost of ownership | 15% | 3 | 4 |
+| Accessibility/support | 10% | 4 | 3 |
+
+Calculate weighted scores only after agreeing what each score means. A weak score on a mandatory security or legal requirement may disqualify an option regardless of the total. Ask vendors for evidence, not just yes/no marketing answers.
