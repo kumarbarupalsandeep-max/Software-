@@ -111,3 +111,17 @@ Ek fictional IT company choose karo: website agency, SaaS task manager, ya manag
 ### Further learning
 - [AWS — Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/)
 - [Microsoft — What is SaaS?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-saas/)
+
+
+## Quick answer guide
+1. Revenue is total income from sales; profit is what remains after the relevant costs.
+2. Subscription customers need ongoing value because they can stop renewing.
+3. Usage-based bills may be hard to predict when demand spikes.
+4. No. Cloud security responsibilities are shared and vary by service.
+5. Low CAC alone cannot guarantee success: churn, margin, cash flow and product value also matter.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: verify examples and links, add worked pricing calculation, and validate the chapter against the master coverage map.
