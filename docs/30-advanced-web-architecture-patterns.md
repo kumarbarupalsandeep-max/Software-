@@ -188,3 +188,55 @@ This is a simplified logical diagram. A production design must define where tena
 - [AWS Well-Architected — Safe deployment strategies](https://docs.aws.amazon.com/wellarchitected/latest/operational-excellence-pillar/ops_mit_deploy_risks_deploy_mgmt_sys.html)
 
 These references cover particular platforms or concepts; their implementation details are not universal across vendors.
+
+
+## Runnable browser-concurrency lab: prevent stale search results
+
+Save as an HTML file and open in a browser. The mock search intentionally returns at different speeds. A request counter prevents an older response from overwriting the latest query.
+
+```html
+<label for="q">Search demo</label>
+<input id="q" type="search" autocomplete="off">
+<p id="status" aria-live="polite"></p>
+<ul id="results"></ul>
+<script>
+  const input = document.querySelector("#q");
+  const status = document.querySelector("#status");
+  const results = document.querySelector("#results");
+  let latestRequestId = 0;
+
+  function mockSearch(query) {
+    const delay = 150 + Math.random() * 900;
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve(query ? [query + " result 1", query + " result 2"] : []);
+      }, delay);
+    });
+  }
+
+  input.addEventListener("input", async () => {
+    const query = input.value.trim();
+    const requestId = ++latestRequestId;
+    status.textContent = "Searching...";
+    try {
+      const items = await mockSearch(query);
+      if (requestId !== latestRequestId) return; // ignore stale result
+      results.replaceChildren();
+      for (const value of items) {
+        const li = document.createElement("li");
+        li.textContent = value;
+        results.append(li);
+      }
+      status.textContent = items.length ? items.length + " results" : "No results";
+    } catch {
+      if (requestId === latestRequestId) status.textContent = "Search failed. Try again.";
+    }
+  });
+</script>
+```
+
+### Expected result
+Type quickly, for example “c”, “ca”, then “cat”. Responses may finish out of order, but only the latest query's results should appear. Random timing makes the race easier to observe; remove randomness for deterministic automated tests.
+
+### Extension
+Replace the mock function with a real fetch call. Consider AbortController to cancel obsolete requests, handle HTTP error responses, and keep server-side rate limits in place. Client-side cancellation does not guarantee the server never started processing the request.
