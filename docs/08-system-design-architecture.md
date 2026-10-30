@@ -96,3 +96,16 @@ Ek ticket-booking system ka high-level diagram banao. Double booking, traffic sp
 ### Further learning
 - [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/)
 - [Google SRE Book](https://sre.google/sre-book/table-of-contents/)
+
+
+## Quick answer guide
+1. Average RPS is daily requests divided by 86,400 seconds; peak demand must be estimated separately.
+2. A cache can reduce latency/load but introduces freshness and invalidation concerns.
+3. Queues absorb bursts and decouple work, but consumers must handle retries and duplicate delivery.
+4. Microservices may support independent deployment but increase network, data consistency and operations complexity.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add a fully worked capacity estimate and diagram for a named sample system.
