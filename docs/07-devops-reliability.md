@@ -113,3 +113,15 @@ Demo app ke liye release checklist, 3 service metrics, 2 alert rules, rollback c
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: validate deployment strategies and add an example service-level calculation.
+
+
+## Worked example: SLO and error budget
+
+Assume a service defines availability as the share of eligible requests that succeed during a 30-day window, and its SLO is 99.9%.
+
+- Window length: 30 × 24 × 60 = 43,200 minutes.
+- Allowed unavailability under a simple time-based approximation: 0.1% × 43,200 = **43.2 minutes**.
+- If the SLO is request-based, count eligible successful/failed requests instead; do not automatically translate it into minutes.
+- Define exclusions, measurement source, maintenance treatment and aggregation window explicitly.
+
+An error budget is a way to discuss reliability risk and release pace. It is not permission to ignore incidents or customer impact.
