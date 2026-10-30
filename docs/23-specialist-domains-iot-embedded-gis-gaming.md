@@ -90,3 +90,17 @@ IoT temperature-monitoring device ka high-level design banao: sensor, firmware, 
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: deepen each specialist domain with separate examples and verify standards/official references.
+
+
+## Worked IoT risk review: temperature sensor
+
+| Risk | Example mitigation | Evidence |
+|---|---|---|
+| Device impersonation | Per-device identity and protected credentials | Reject unknown device identity |
+| Network unavailable | Local buffering with bounded storage and safe retry | Simulate network loss and recovery |
+| Malicious/invalid readings | Range checks and anomaly flags | Send invalid values in test environment |
+| Unsafe update | Signed/verified update process and recovery plan | Verify failed update recovery |
+| Excessive data collection | Collect only required measurements and retention | Inspect stored fields and deletion workflow |
+| Device reaches end-of-support | Document lifecycle and replacement process | Verify ownership and support dates |
+
+This is a starting checklist, not a complete IoT security assessment. Physical safety and sector-specific requirements may need specialist review.
