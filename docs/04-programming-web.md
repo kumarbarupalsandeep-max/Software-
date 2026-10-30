@@ -117,3 +117,82 @@ Ek product-list page ka static prototype banao:
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: add a runnable mini-project with expected files/output and verify browser examples.
+
+
+## Runnable mini-lab: searchable product list
+
+Is example ko ek folder mein `index.html` ke naam se save karke browser mein open karo. Ye frontend-only learning demo hai; ismein real API, checkout ya user data nahi hai.
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Search Lab</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 48rem; margin: 2rem auto; padding: 0 1rem; }
+    input { width: 100%; padding: .7rem; box-sizing: border-box; }
+    li { padding: .5rem 0; }
+    #status { min-height: 1.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Product Search Lab</h1>
+  <label for="search">Search products</label>
+  <input id="search" type="search" autocomplete="off" placeholder="Try keyboard">
+  <p id="status" aria-live="polite"></p>
+  <ul id="results"></ul>
+
+  <script>
+    const products = [
+      { name: "Wireless Keyboard", category: "Accessories" },
+      { name: "USB-C Hub", category: "Accessories" },
+      { name: "Laptop Stand", category: "Office" }
+    ];
+
+    const search = document.querySelector("#search");
+    const results = document.querySelector("#results");
+    const status = document.querySelector("#status");
+
+    function renderProducts(query) {
+      const normalizedQuery = query.trim().toLowerCase();
+      const matches = products.filter(product =>
+        product.name.toLowerCase().includes(normalizedQuery) ||
+        product.category.toLowerCase().includes(normalizedQuery)
+      );
+
+      results.replaceChildren();
+      for (const product of matches) {
+        const item = document.createElement("li");
+        item.textContent = `${product.name} — ${product.category}`;
+        results.append(item);
+      }
+
+      status.textContent = matches.length === 0
+        ? "No matching products."
+        : `${matches.length} product(s) found.`;
+    }
+
+    search.addEventListener("input", event => renderProducts(event.target.value));
+    renderProducts("");
+  </script>
+</body>
+</html>
+```
+
+### Expected result
+- Initial load: 3 products shown.
+- Search `keyboard`: Wireless Keyboard shown.
+- Search `office`: Laptop Stand shown.
+- Search `xyz`: “No matching products.” shown.
+- Keyboard users can reach the labelled search field; the result count uses an `aria-live` region.
+
+### Extend the lab
+1. Add a clear-search button.
+2. Add a category filter.
+3. Move data to a separate JSON file and handle fetch failure.
+4. Add loading/error states before using a real API.
+5. Test at narrow screen width and with keyboard-only navigation.
+
+**Safety note:** `textContent` is used to insert text safely. If rendering untrusted content, do not blindly use `innerHTML`.
