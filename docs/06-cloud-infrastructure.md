@@ -122,3 +122,7 @@ Ek demo app ke liye architecture diagram banao. Har component ke liye purpose, d
 **Option C — full container platform:** can fit a more complex application, but may add unnecessary operational overhead for a simple site.
 
 **Decision method:** compare expected traffic, team skills, data sensitivity, support needs, availability target, cost, migration/exit path and required backend behaviour. Do not select a platform only because it is popular.
+
+
+## Lab review checklist
+A strong architecture diagram labels each component's purpose, trust boundary, access permissions, data sensitivity, backup/restore method, cost driver and failure impact. The hosting decision should compare at least two viable options and explain why the simplest option that meets requirements was chosen. Include a budget alert and a tested recovery step.
