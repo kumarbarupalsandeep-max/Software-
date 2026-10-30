@@ -6,7 +6,7 @@
 1. **[Master Topic Coverage Map](docs/00-master-topic-coverage-map.md)** — broad syllabus audit, major domains aur specialist branches.
 2. **[Software & IT Fundamentals](docs/01-software-it-fundamentals.md)** — industry ki foundation.
 3. Chapters 02–13 main learning path hain.
-4. Chapters 14–28 additional depth, practical learning, specialist domains, visual examples, research references, end-to-end case studies aur simple-language coverage standard dete hain.
+4. Chapters 14–29 additional depth, practical learning, specialist domains, visual examples, research references, end-to-end case studies, high-impact technical gaps aur simple-language coverage standard dete hain.
 
 ## Complete table of contents
 
@@ -41,6 +41,7 @@
 26. [Real-World Images & Visual Case Studies](docs/26-real-world-images-and-visual-case-studies.md)
 27. [Simple-Language Standard & Whole-Industry Coverage Roadmap](docs/27-simple-language-learning-standard-and-industry-coverage-roadmap.md)
 28. [End-to-End Industry Case Studies & Assessment](docs/28-end-to-end-industry-case-studies-and-assessment.md)
+29. [High-Impact Technical Gaps & Practical Notes](docs/29-high-impact-technical-gaps-and-practical-notes.md)
 
 ## Language and quality standard
 Har topic ko beginner-friendly Hinglish mein samjhaya jayega: pehle simple meaning, phir daily-life example, real IT example, step-by-step workflow, diagram, pros/cons, common failures, security/cost impact, practice lab aur official references. Technical English term bhi diya jayega taaki learner industry vocabulary seekh sake. Detailed template aur industry-wide gap roadmap ke liye [Chapter 27](docs/27-simple-language-learning-standard-and-industry-coverage-roadmap.md) dekhein.
