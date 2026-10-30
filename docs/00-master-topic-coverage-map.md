@@ -91,6 +91,11 @@ These are broad specialist branches and should be expanded when the learner's ta
 - Digital forensics, malware analysis and penetration testing (authorized environments only)
 - Standards and regulations by jurisdiction and industry
 
+## Current deep-audit progress
+
+- [x] **Chapter 01 — Software & IT Fundamentals:** beginner explanation, everyday and business examples, lifecycle and application diagrams, glossary, practice lab, knowledge check, common mistakes, and learning references added. Status: **Practically covered at beginner level; deep review still pending**.
+- [ ] Chapters 02–27: continue the same chapter-by-chapter audit and expansion. A topic being listed above does not mean it has passed the practical/deep review standard.
+
 ## Suggested completion labels
 - **Not started:** meaningful explanation nahi hai.
 - **Outline:** headings hain, detail kam hai.
