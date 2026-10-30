@@ -1,5 +1,9 @@
 # 18. IT Business, Finance, Sales, Procurement & Legal Basics
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 ## 1. IT company ka business model
 Revenue product subscriptions, licenses, implementation projects, consulting hours, managed services, usage-based billing, support contracts or marketplace commissions se aa sakta hai. Revenue profit nahi hota: profit = revenue minus costs/expenses (accounting treatment ke hisaab se). Cash flow and booked revenue bhi different concepts hain.
 
