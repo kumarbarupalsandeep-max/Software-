@@ -111,3 +111,7 @@ Ek shopping cart ke 8 test cases likho: normal add/remove, quantity boundary, em
 | Audit/log review | Run reset test and inspect safe logs | No raw password or reset token recorded |
 
 Actual policy and responses must match the product's security requirements. Tests should use controlled accounts and never real users' passwords.
+
+
+## Lab review checklist
+A strong test plan maps each requirement to at least one test, includes positive, negative, boundary and permission cases, and states test data and expected results. Test failures should be reproducible and defects should include steps/evidence. Accessibility checks should include keyboard operation and a manual review, not only an automated scan.
