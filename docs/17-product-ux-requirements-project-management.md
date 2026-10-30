@@ -89,3 +89,16 @@ Ek employee leave-request feature ke liye persona/context, problem statement, 5 
 - [Nielsen Norman Group](https://www.nngroup.com/articles/)
 - [Atlassian Agile Coach](https://www.atlassian.com/agile)
 - [W3C Accessibility](https://www.w3.org/WAI/)
+
+
+## Quick answer guide
+1. A problem statement describes the user need; a proposed solution is one possible response to that need.
+2. Prioritization methods support decisions but do not replace judgment, user evidence or mandatory safety/compliance work.
+3. Loading, empty, error and permission-denied states are part of a complete UX flow.
+4. A risk register should include an owner, likelihood/impact, mitigation and a trigger/contingency.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add an example discovery brief and complete acceptance-criteria walkthrough.
