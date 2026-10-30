@@ -126,6 +126,7 @@ Chapters 01–26 now have practical-learning sections and quick answer guides, w
 | 27 — Learning standard/coverage roadmap | Standard and audit roadmap | Use it to review chapters and record evidence |
 | 28 — End-to-end case studies | Case studies and 100-point assessment rubric | Validate scenarios, then add runnable labs and evidence |
 | 29 — High-impact technical gaps | OS/concurrency, Git, CDN/cache/load balancing, IaC, APIs, performance, data and AI/RAG | Verify references and add reproducible labs with expected outputs |
+| 30 — Advanced web architecture | Multi-app, multi-tenant, micro-frontends, safe releases, CDN, load balancing, browser concurrency | Add provider-specific examples, runnable labs and primary-source checks |
 
 **Next audit loop:** review one chapter at a time against the chapter-27 standard; verify technical claims and primary references; add missing explanations, examples, diagrams, practical tasks and answer keys; then update this table only when evidence supports the new status.
 
