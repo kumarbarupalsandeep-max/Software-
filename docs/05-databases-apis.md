@@ -104,3 +104,17 @@ A simple inventory app ka design banao:
 - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
 - [MDN — HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 - [OWASP SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+
+
+## Quick answer guide
+1. A primary key uniquely identifies a row; a foreign key references a related row.
+2. Indexes can speed reads but add storage and may slow writes/updates.
+3. Unlimited retries can amplify outages, duplicate actions and overload a recovering service.
+4. Clients need defined error behaviour to recover safely and give users accurate feedback.
+5. No. Frontend code is visible to users; secrets belong in protected server-side systems.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add a worked SQL/API example and verify snippets against current official documentation.
