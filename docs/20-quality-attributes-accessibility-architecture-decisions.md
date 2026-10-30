@@ -1,5 +1,9 @@
 # 20. Quality Attributes, Architecture Decisions & Engineering Trade-offs
 
+**Project:** Software & IT Services — Deep Research & Study Notes  
+**Owner / Content Creator:** Sandeep Barupal  
+**Copyright:** © 2026 Sandeep Barupal. All rights reserved, except as stated below.
+
 ## 1. Functional behavior vs quality attributes
 Functional requirement says what system does. Quality attributes describe how well it does it: availability, latency, throughput, scalability, security, privacy, accessibility, usability, maintainability, portability, interoperability, observability, recoverability and cost efficiency.
 
