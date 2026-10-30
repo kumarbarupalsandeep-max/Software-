@@ -94,3 +94,16 @@ Ek employee portal ke liye asset list, 5 threats, risk level, preventive control
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [CISA Secure by Design](https://www.cisa.gov/securebydesign)
+
+
+## Quick answer guide
+1. Authentication verifies identity; authorization decides what that identity can do.
+2. Frontend bundles are inspectable, so embedded secrets can be extracted and abused.
+3. Backups aid recovery but do not replace access control, encryption, monitoring or secure configuration.
+4. Excessive retention increases privacy exposure, breach impact and storage/management cost.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: map each security section to current OWASP/NIST guidance and add a threat-model worked example.
