@@ -112,3 +112,7 @@ For each important dependency, record:
 - Alternative or mitigation if the project becomes unmaintained
 
 A “no known vulnerability” result means none was found in the checked source at that time; it does not prove the dependency is safe. Keep the check date and tool/database scope visible.
+
+
+## Lab review checklist
+A strong dependency record identifies exact component/version, purpose, license, maintenance signal, advisory check date, provenance and owner. A clean scan is not a guarantee of safety; document limitations and a plan for updates or replacement. Preserve required notices and attribution.
