@@ -104,3 +104,12 @@ HR system se employee joiner/mover/leaver events ke through email aur project to
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: verify identity protocol descriptions against current official specifications and add an end-to-end provisioning example.
+
+
+## Worked joiner/mover/leaver workflow
+
+**Joiner:** HR approves the employee record → identity account is created → role-based access is provisioned → owner verifies required apps.  
+**Mover:** manager/department changes → access is recalculated → obsolete permissions are removed → audit event recorded.  
+**Leaver:** termination event is authorized → access is disabled/revoked according to policy → sessions/tokens are handled → assets/data ownership transferred → retention and audit requirements followed.
+
+Failure cases include duplicate events, delayed HR updates, unavailable downstream apps and partial provisioning. Use idempotent processing, reconciliation reports, clear ownership and alerts for incomplete access changes. High-risk access removal may require a faster controlled path than ordinary batch provisioning.
