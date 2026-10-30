@@ -126,3 +126,16 @@ Ek login ya leave-request feature ke liye 5 functional requirements, 3 non-funct
 - [Agile Manifesto](https://agilemanifesto.org/)
 - [Scrum Guide](https://scrumguides.org/scrum-guide.html)
 - [NIST Secure Software Development Framework (SSDF)](https://csrc.nist.gov/Projects/ssdf)
+
+
+## Quick answer guide
+1. A requirement describes a need/constraint; acceptance criteria define observable conditions for accepting the work.
+2. Agile does not remove planning; it allows plans to adapt as learning improves.
+3. Production can differ from test environments in configuration, data, traffic and dependencies.
+4. Rollback returns to a safer previous state when feasible; a hotfix changes the faulty behaviour. Some data migrations make rollback non-trivial.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: add a worked estimation example and verify all SDLC topics against the master map.
