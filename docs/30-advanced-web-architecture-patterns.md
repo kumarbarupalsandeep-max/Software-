@@ -159,3 +159,22 @@ Submit:
 - Verification status: conceptual guidance; exact platform configuration must be verified against the chosen provider/product.
 - Last content expansion: 2026-10-30.
 - Next review: add provider-specific examples, runnable browser lab, architecture diagrams and current primary-source checks.
+
+
+## Visual: simplified multi-tenant multi-app platform
+
+```mermaid
+flowchart TD
+C[Customer portal] --> GW[API gateway / edge]
+A[Admin app] --> GW
+R[Reporting app] --> GW
+GW --> ID[Identity and access checks]
+ID --> S[Application services]
+S --> T[Tenant context and authorization]
+T --> DB[(Tenant-aware data layer)]
+S --> CACHE[Cache with tenant-safe keys]
+S --> OBS[Monitoring and audit]
+DB --> BACK[Backup and recovery]
+```
+
+This is a simplified logical diagram. A production design must define where tenant identity is derived and validated, how data isolation is enforced, and how caches, background jobs, exports, support access and backups preserve tenant boundaries.
