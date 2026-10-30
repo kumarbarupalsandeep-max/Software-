@@ -44,3 +44,53 @@ A --> APP[Application controls]
 APP --> D[Data encryption and access controls]
 D --> L[Audit and monitoring]
 ```
+
+
+## Practical deep dive: security ko project mein kaise include karein?
+
+### Security goals
+- **Confidentiality:** data sirf authorized people/systems ko mile.
+- **Integrity:** data unauthorized tareeke se change na ho.
+- **Availability:** system zaroorat par accessible rahe.
+Ye common CIA triad hai; real systems mein authenticity, accountability aur privacy bhi important hote hain.
+
+### Authentication vs authorization
+- **Authentication:** aap kaun ho?
+- **Authorization:** aapko kya karne ki permission hai?
+Successful login ka matlab har record ya admin action ka access nahi.
+
+### Threat modelling — beginner method
+1. Assets identify karo: accounts, personal data, payment records, secrets.
+2. Entry points aur data flows draw karo.
+3. Threats socho: account takeover, injection, data leakage, privilege misuse, service disruption.
+4. Existing controls aur gaps likho.
+5. Risk ke hisaab se mitigation prioritize karo.
+6. Tests aur owner assign karo.
+
+### Practical controls
+- Unique accounts, MFA where appropriate, least privilege.
+- HTTPS and suitable encryption/key management.
+- Server-side input validation and parameterized database queries.
+- Secrets manager/environment configuration; secrets Git repository mein nahi.
+- Dependency updates and vulnerability scanning.
+- Backups plus restore tests.
+- Access/audit logs with restricted access and retention limits.
+- Incident reporting, patching and recovery procedures.
+- Data minimization: jo data chahiye hi nahi, use collect na karo.
+
+### Privacy-by-design example
+Signup form mein sirf required details lo. Purpose aur retention period define karo. Support staff ko sirf required records ka access do. Export/delete requests aur legal retention obligations ko applicable law ke hisaab se design karo. Legal requirements country, sector aur data type ke mutabiq vary karte hain.
+
+### Practice lab
+Ek employee portal ke liye asset list, 5 threats, risk level, preventive control, detection method aur recovery action ki table banao. Phir login, role permissions, lost-password flow aur account lockout/rate-limit behaviour test plan likho.
+
+### Knowledge check
+1. Authentication aur authorization mein difference?
+2. Frontend mein API key rakhna risky kyun?
+3. Backup security ka replacement hai? **Nahi**—backup recovery mein help karta hai, lekin access control aur protection alag controls hain.
+4. Har log ko forever store karna chahiye? **Nahi**—privacy, access, cost aur retention policy matter karte hain.
+
+### Further learning
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
+- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+- [CISA Secure by Design](https://www.cisa.gov/securebydesign)
