@@ -100,3 +100,16 @@ Ek technology choice par 3 official/primary sources compare karo. Publication/up
 - [NIST Computer Security Resource Center](https://csrc.nist.gov/)
 - [RFC Editor](https://www.rfc-editor.org/)
 - [W3C Standards](https://www.w3.org/standards/)
+
+
+## Quick answer guide
+1. Primary sources include standards, specifications and official documentation for the exact product/version in question.
+2. Official documentation may still be version-specific or outdated, so verify date, scope and environment.
+3. A claim-evidence table separates what is known from assumptions and unresolved questions.
+4. A security claim needs evidence and a defined scope; marketing language alone does not prove security.
+
+## Review status
+- Content milestone: practical beginner expansion.
+- Verification status: not yet independently deep-reviewed.
+- Last content expansion: 2026-10-30.
+- Next review: verify every research-method reference and add a worked source-comparison example.
