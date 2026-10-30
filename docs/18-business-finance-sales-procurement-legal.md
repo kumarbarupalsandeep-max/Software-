@@ -111,3 +111,19 @@ Ek small company ke liye project SOW outline banao: goals, in-scope/out-of-scope
 - Verification status: not yet independently deep-reviewed.
 - Last content expansion: 2026-10-30.
 - Next review: check that legal/commercial explanations remain general and add a worked TCO comparison.
+
+
+## Worked total-cost-of-ownership (TCO) comparison
+
+A vendor quote may show a low monthly license while excluding implementation, migration, training, support tiers, storage, API usage, renewal increases and exit costs.
+
+Create a 3-year comparison with:
+- Initial setup and migration
+- Subscription/license payments
+- Usage-based charges and likely growth range
+- Internal administration/support hours
+- Training and change-management cost
+- Security/compliance review effort
+- Renewal assumptions and exit/data-export cost
+
+Use low/base/high scenarios and state assumptions. Do not invent a precise cost when vendor pricing or usage data is unavailable. Verify current quotes, terms and applicable legal obligations before a real purchase.
